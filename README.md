@@ -13,7 +13,7 @@
 
 <br>
 
-## 📝 Test
+## 📝 Programmers
 | 번호 | 언어 | 링크 |
 |-----|-----|-----|
 | 1 | Java | [Java](https://github.com/ho-ong/coding-test/tree/main/Programmers/Java) |
