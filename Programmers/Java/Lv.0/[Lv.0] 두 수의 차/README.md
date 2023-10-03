@@ -28,5 +28,7 @@
 - 입출력 예 #2
     - `num1`이 100이고, `num2`가 2이므로 100 - 2 = 98을 return 합니다.
 
+<br>
+
 ## 링크
 [[Lv.0] 두 수의 차](https://school.programmers.co.kr/learn/courses/30/lessons/120803)

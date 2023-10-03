@@ -28,5 +28,7 @@
 - 입출력 예 #2
     - `num1`이 27, `num2`가 19이므로 27 * 19 = 513을 return합니다.
 
+<br>
+
 ## 링크
 [[Lv.0] 두 수의 곱](https://school.programmers.co.kr/learn/courses/30/lessons/120804)

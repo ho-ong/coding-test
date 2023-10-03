@@ -28,5 +28,7 @@
 - 입출력 예 #2
     - `num1`이 7, `num2`가 2이므로 7을 2로 나눈 몫 3을 return 합니다.
 
+<br>
+
 ## 링크
 [[Lv.0] 몫 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120805)
