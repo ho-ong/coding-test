@@ -4,4 +4,3 @@ class Solution {
         return num1 == num2 ? 1 : -1;
     }
 }
-
