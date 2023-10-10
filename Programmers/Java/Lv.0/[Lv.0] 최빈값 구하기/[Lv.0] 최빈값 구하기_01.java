@@ -1,20 +1,29 @@
 import java.util.*;
-import java.util.stream.Collectors;
 
 class Solution {
     public int solution(int[] array) {
-        List<Map.Entry<Integer, List<Integer>>> list = new ArrayList<>(
-            // Collectors.groupingBy : 배열의 원소를 그룹화
-            // entrySet() : Map의 Key-Value 집합 반환
-            Arrays.stream(array).boxed().collect(Collectors.groupingBy(o -> o)).entrySet())
-            // 리스트 -> 스트림 변환
-            // Integer.compare() : 정렬 순서 결정
-            .stream().sorted((t0, t1) -> Integer.compare(t1.getValue().size(), t0.getValue().size()))
-            // 스트림 -> 리스트 변환
-            .collect(Collectors.toList());
+        Map<Integer, Integer> map = new HashMap<>();
 
-        // list의 크기가 1보다 크고, list의 1, 2번째 값의 차가 0이면 -1
-        // 아니면 list의 1번째 키 반환
-        return list.size() > 1 && list.get(0).getValue().size() - list.get(1).getValue().size() == 0 ? -1 : list.get(0).getKey();
+        int answer = 0;
+        int max = 0; // 최댓값
+
+        for (int num : array) {
+            // getOrDefault(key, defaultValue) : 찾는 key가 존재하면 찾는 key의 값을 반환, 없거나 null이면 default 값을 반환
+            int count = map.getOrDefault(num, 0) + 1; // 빈도수
+
+            // 최빈값 구하기
+            if (max < count) {
+                // 최빈값이 1개면 i
+                max = count;
+                answer = num;
+            } else if (max == count) {
+                // 최빈값이 여러 개면 -1
+                answer = -1;
+            }
+
+            map.put(num, count);
+        }
+
+        return answer;
     }
 }
