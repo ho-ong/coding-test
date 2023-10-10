@@ -3,7 +3,7 @@
 <br>
 
 ## 문제설명
-정수 `num1`, `num2`가 매개변수로 주어질 때, `num1`을 `num2`로 나눈 나머지를 return 하도록 solution 함수를 완성해주세요.
+정수 `num1`, `num2`가 매개변수로 주어질 때, `num1`을 `num2`로 나눈 나머지를 return 하도록 solution 함수를 완성해 주세요.
 
 <br>
 
