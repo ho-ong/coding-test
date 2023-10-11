@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 class Solution {
     public int[] solution(int[] numbers) {
-        // 배열의 i번째 원소를 두 배로 만들기
+        // 배열의 원소에 2를 곱하기
         return Arrays.stream(numbers).map(i -> i * 2).toArray();
     }
 }
