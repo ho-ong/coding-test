@@ -8,7 +8,7 @@ public class Solution {
         // 높이와 너비가 n인 직각 이등변 삼각형
         for (int i = 0; i < n; i++) {
             for (int j = 0; j <= i; j++) {
-                // "*"를 j번 반복하기
+                // *을 j번 반복하기
                 System.out.print("*");
             }
 
