@@ -5,6 +5,8 @@ class Solution {
         String[] str = planet.split("");
 
         for (int i = 0; i < planet.length(); i++) {
+            // + 97 : 아스키 코드 변환
+            // char 문자 변환
             answer += (char) (Integer.parseInt(str[i]) + 97);
         }
 
