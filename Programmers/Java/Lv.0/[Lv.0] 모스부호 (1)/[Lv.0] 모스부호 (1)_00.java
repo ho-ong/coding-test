@@ -36,7 +36,7 @@ class Solution {
         String[] str = letter.split(" ");
 
         for (String morse : str) {
-            // map의 값을 가져와 합치기
+            // map의 키에 해당하는 값을 가져와 합치기
             answer += map.get(morse);
         }
 

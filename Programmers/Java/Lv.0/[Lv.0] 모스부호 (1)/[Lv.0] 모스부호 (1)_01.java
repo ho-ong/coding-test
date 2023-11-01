@@ -33,7 +33,7 @@ class Solution {
             put("--..", "z");
         }};
 
-        // map의 값을 가져와 합치기
+        // map의 키에 해당하는 값을 가져와 합치기
         return Arrays.stream(letter.split(" ")).map(map::get).collect(Collectors.joining());
     }
 }
