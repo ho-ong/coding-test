@@ -7,7 +7,5 @@ def solution(angle):
         answer = 3 # 둔각
     elif angle == 180:
         answer = 4 # 평각
-    else:
-        answer = 0
 
     return answer
