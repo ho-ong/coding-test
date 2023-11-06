@@ -10,8 +10,6 @@ class Solution {
                 answer += "0"; // 2 -> 0
             } else if (str[i].equals("5")) {
                 answer += "2"; // 5 -> 2
-            } else {
-                answer = answer;
             }
         }
 

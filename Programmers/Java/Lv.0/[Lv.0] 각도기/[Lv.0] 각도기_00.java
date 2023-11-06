@@ -10,8 +10,6 @@ class Solution {
             answer = 3; // 둔각
         } else if (angle == 180) {
             answer = 4; // 평각
-        } else {
-            answer = answer;
         }
 
         return answer;

@@ -17,7 +17,6 @@ class Solution {
         // 분자와 분모를 최대공약수로 나누기
         answer[0] /= max;
         answer[1] /= max;
-
         return answer;
     }
 }
