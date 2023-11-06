@@ -8,7 +8,7 @@ class Solution {
 
         // balls = n, share = m
         // 경우의 수 = n * (n - 1) * (n - 2) * (n - 3) ... (n - m + 1) / m!
-        long answer = solution (balls - 1, share - 1);
+        long answer = solution(balls - 1, share - 1);
         answer *= balls;
         answer /= share;
         return answer;
