@@ -13,7 +13,7 @@
 <br>
 
 ## 입출력 예
-| my_string | return |
+| my_string | result |
 |---|---|
 | "jaron" | "noraj" |
 | "bread" | "daerb" |
