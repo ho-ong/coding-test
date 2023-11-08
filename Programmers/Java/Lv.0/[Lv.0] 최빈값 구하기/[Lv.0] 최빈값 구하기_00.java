@@ -11,7 +11,7 @@ class Solution {
 
         // 배열의 원소가 같은지 체크
         for (int i = 0; i < array.length; i++) {
-            // 배열의 원소가 같으면 count 증가 (ex: 3이 3개면 3 증가)
+            // 배열의 원소가 같으면 count 증가 (만약 3이 3개면 3 증가)
             count[array[i]]++;
         }
 
