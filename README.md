@@ -12,7 +12,9 @@
 <br>
 
 ## 📝 Programmers
-| 번호 | 언어 | 링크 |
-|-----|-----|-----|
-| 1 | Java | [Java](https://github.com/ho-ong/coding-test/tree/main/Programmers/Java) |
-| 2 | Python | [Python](https://github.com/ho-ong/coding-test/tree/main/Programmers/Python) |
+| 번호 | 문제 | 링크 |
+|---|---|---|
+| 1 | 코딩 기초 트레이닝 | [Java](https://github.com/ho-ong/coding-test/tree/main/Programmers/코딩 기초 트레이닝) |
+| 2 | 코딩테스트 입문 | [Python](https://github.com/ho-ong/coding-test/tree/main/Programmers/코딩테스트 입문) |
+| 3 | 코딩테스트 고득점 Kit | [Python](https://github.com/ho-ong/coding-test/tree/main/Programmers/코딩테스트 고득점 Kit) |
+| 4 | SQL 고득점 Kit | [Python](https://github.com/ho-ong/coding-test/tree/main/Programmers/SQL 고득점 Kit) |
