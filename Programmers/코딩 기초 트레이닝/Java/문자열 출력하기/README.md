@@ -1,9 +1,9 @@
-# [Lv.0] 문자열 출력하기
+# 문자열 출력하기
 
 <br>
 
 ## 문제설명
-문자열 `str`이 주어질 때, `str`을 출력하는 코드를 작성해 보세요.
+문자열 `str`이 주어질 때, `str`을 출력하는 코드를 작성해 주세요.
 
 <br>
 
@@ -27,4 +27,4 @@ HelloWorld!
 <br>
 
 ## 링크
-[[Lv.0] 문자열 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181952)
+[문자열 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181952)

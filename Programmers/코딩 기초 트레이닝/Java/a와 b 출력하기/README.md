@@ -1,4 +1,4 @@
-# [Lv.0] a와 b 출력하기
+# a와 b 출력하기
 
 <br>
 
@@ -27,4 +27,4 @@ b = 5
 <br>
 
 ## 링크
-[[Lv.0] a와 b 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181951)
+[a와 b 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181951)
