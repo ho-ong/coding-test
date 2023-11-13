@@ -5,8 +5,6 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
-        // System.out.println("a = " + a + "\nb = " + b);
+        System.out.printf("%d + %d = %d", a, b, a + b);
     }
 }
