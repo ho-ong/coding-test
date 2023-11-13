@@ -6,6 +6,7 @@ public class Solution {
         String a = sc.next();
 
         for (char c : a.toCharArray()) {
+            // 문자열의 원소를 출력하기
             System.out.println(c);
         }
     }

@@ -8,6 +8,7 @@ public class Solution {
         String a = "";
 
         for (int i = 1; i <= n; i++) {
+            // 문자열을 모두 합치기
             a += str;
         }
 
