@@ -14,24 +14,24 @@
 
 ## 입출력 예
 - 입력 #1
-```java
-apple pen
-```
+    ```java
+    apple pen
+    ```
 
 - 출력 #1
-```java
-applepen
-```
+    ```java
+    applepen
+    ```
 
 - 입력 #2
-```java
-Hello World!
-```
+    ```java
+    Hello World!
+    ```
 
 - 출력 #2
-```java
-HelloWorld!
-```
+    ```java
+    HelloWorld!
+    ```
 
 <br>
 

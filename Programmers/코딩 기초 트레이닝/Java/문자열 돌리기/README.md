@@ -14,18 +14,18 @@
 
 ## 입출력 예
 - 입력 #1
-```java
-abcde
-```
+    ```java
+    abcde
+    ```
 
 - 출력 #1
-```java
-a
-b
-c
-d
-e
-```
+    ```java
+    a
+    b
+    c
+    d
+    e
+    ```
 
 <br>
 

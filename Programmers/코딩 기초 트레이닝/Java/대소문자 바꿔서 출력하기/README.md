@@ -15,14 +15,14 @@
 
 ## 입출력 예
 - 입력 #1
-```java
-aBcDeFg
-```
+    ```java
+    aBcDeFg
+    ```
 
 - 출력 #1
-```java
-AbCdEfG
-```
+    ```java
+    AbCdEfG
+    ```
 
 <br>
 

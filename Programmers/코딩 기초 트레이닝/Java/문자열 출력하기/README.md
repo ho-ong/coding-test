@@ -15,14 +15,14 @@
 
 ## 입출력 예
 - 입력 #1
-```java
-HelloWorld!
-```
+    ```java
+    HelloWorld!
+    ```
 
 - 출력 #1
-```java
-HelloWorld!
-```
+    ```java
+    HelloWorld!
+    ```
 
 <br>
 

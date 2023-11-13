@@ -15,14 +15,14 @@
 
 ## 입출력 예
 - 입력 #1
-```java
-string 5
-```
+    ```java
+    string 5
+    ```
 
 - 출력 #1
-```java
-stringstringstringstringstring
-```
+    ```java
+    stringstringstringstringstring
+    ```
 
 <br>
 
