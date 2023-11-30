@@ -7,7 +7,7 @@ public class Solution {
         String answer = "";
 
         for (int i = 0; i < a.length(); i++) {
-            char c = a.charAt(i); 
+            char c = a.charAt(i);
 
             // isUpperCase(), isLowerCase() : 대소문자 여부 확인 후 True, False 반환
             if (Character.isLowerCase(c)) {
