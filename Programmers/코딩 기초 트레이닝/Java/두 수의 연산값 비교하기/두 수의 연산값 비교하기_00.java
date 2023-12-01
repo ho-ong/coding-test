@@ -1,12 +1,12 @@
 class Solution {
     public int solution(int a, int b) {
-        int add = Integer.parseInt(String.valueOf(a) + String.valueOf(b));
-        int multiply = 2 * a * b;
+        int sum = Integer.parseInt(String.valueOf(a) + String.valueOf(b));
+        int mul = 2 * a * b;
 
-        if (add >= multiply) {
-            return add;
+        if (sum >= mul) {
+            return sum;
         } else {
-            return multiply;
+            return mul;
         }
     }
 }
