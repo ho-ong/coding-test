@@ -3,7 +3,6 @@ import java.util.Arrays;
 class Solution {
     public int solution(int[] array) {
         Arrays.sort(array);
-
         int answer = 0;
         int max = 0; // 최댓값
         max = array[array.length - 1];

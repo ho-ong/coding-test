@@ -3,7 +3,6 @@ import java.util.*;
 class Solution {
     public int solution(int[] array) {
         Map<Integer, Integer> map = new HashMap<>();
-
         int answer = 0;
         int max = 0; // 최댓값
 
