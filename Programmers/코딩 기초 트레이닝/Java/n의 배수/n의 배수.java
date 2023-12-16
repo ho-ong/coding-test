@@ -1,6 +1,6 @@
 class Solution {
     public int solution(int num, int n) {
-        // 나머지가 0이면 배수
+        // 나머지가 0일 경우 배수
         return num % n == 0 ? 1 : 0;
     }
 }

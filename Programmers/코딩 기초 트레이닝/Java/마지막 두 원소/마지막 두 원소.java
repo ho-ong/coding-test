@@ -9,10 +9,10 @@ class Solution {
         }
 
         if (a > b) {
-            // 마지막 원소가 크면
+            // 마지막 원소가 클 경우
             answer[num_list.length] = a - b;
         } else {
-            // 마지막 원소가 작으면
+            // 마지막 원소가 작을 경우
             answer[num_list.length] = a * 2;
         }
 

@@ -3,14 +3,14 @@ class Solution {
         int answer = 0;
 
         if (ineq.equals(">")) {
-            // ineq이 ">"일 경우
+            // ineq가 ">"일 경우
             if (eq.equals("=")) {
                 answer = n >= m ? 1 : 0;
             } else if (eq.equals("!")) {
                 answer = n > m ? 1 : 0;
             }
         } else if (ineq.equals("<")) {
-            // ineq이 "<"일 경우
+            // ineq가 "<"일 경우
             if (eq.equals("=")) {
                 answer = n <= m ? 1 : 0;
             } else if (eq.equals("!")) {

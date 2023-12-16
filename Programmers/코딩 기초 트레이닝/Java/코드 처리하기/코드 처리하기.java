@@ -15,7 +15,7 @@ class Solution {
             }
         }
 
-        // 빈 문자열이면 "EMPTY" 반환, 아니면 문자열 반환
+        // 빈 문자열일 경우 "EMPTY" 반환, 아닐 경우 문자열 반환
         return "".equals(answer) ? "EMPTY" : answer;
     }
 }

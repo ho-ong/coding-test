@@ -27,7 +27,7 @@
     - 예제 1번의 `my_string`에서 인덱스 2부터 `overwrite_string`의 길이만큼에 해당하는 부분은 "11oWor1"이고, 이를 "lloWorl"로 바꾼 "HelloWorld"를 return 합니다.
 
 - 입출력 예 설명 #2
-    - 예제 2번의 `my_string`에서 인덱스 7부터 `overwrite_string`의 길이만큼에 해당하는 부분은 "29b8UYP"이고, 이를 "merS123"로 바꾼 "ProgrammerS123"을 return 합니다.
+    - 예제 2번의 `my_string`에서 인덱스 7부터 `overwrite_string`의 길이만큼에 해당하는 부분은 "29b8UYP"이고, 이를 "merS123"으로 바꾼 "ProgrammerS123"을 return 합니다.
 
 <br>
 
