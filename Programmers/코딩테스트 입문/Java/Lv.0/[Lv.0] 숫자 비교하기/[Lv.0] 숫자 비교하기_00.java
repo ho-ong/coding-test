@@ -3,10 +3,10 @@ class Solution {
         int answer = 0;
 
         if (num1 == num2) {
-            // num1과 num2가 같으면 1
+            // num1과 num2가 같을 경우 1
             answer = 1;
         } else {
-            // num1과 num2가 다르면 -1
+            // num1과 num2가 다를 경우 -1
             answer = -1;
         }
 

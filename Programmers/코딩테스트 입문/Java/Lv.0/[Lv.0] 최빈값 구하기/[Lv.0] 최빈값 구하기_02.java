@@ -14,8 +14,8 @@ class Solution {
             .stream().sorted((t0, t1) -> Integer.compare(t1.getValue().size(), t0.getValue().size()))
             .collect(Collectors.toList());
 
-        // list의 크기가 1보다 크고, list의 1, 2번째 값의 차가 0이면 -1
-        // 아니면 list의 1번째 키 반환
+        // list의 크기가 1보다 크고, list의 1, 2번째 값의 차가 0일 경우 -1
+        // 아닐 경우 list의 1번째 키 반환
         return list.size() > 1 && list.get(0).getValue().size() - list.get(1).getValue().size() == 0 ? -1 : list.get(0).getKey();
     }
 }

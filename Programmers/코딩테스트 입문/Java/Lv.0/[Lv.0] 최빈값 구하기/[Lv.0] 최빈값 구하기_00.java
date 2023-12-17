@@ -10,7 +10,7 @@ class Solution {
 
         // 배열의 원소가 같은지 체크
         for (int i = 0; i < array.length; i++) {
-            // 배열의 원소가 같으면 count 증가 (만약 3이 3개면 3 증가)
+            // 배열의 원소가 같을 경우 count 증가
             count[array[i]]++;
         }
 
@@ -19,11 +19,11 @@ class Solution {
         // 최빈값 구하기
         for (int i = 1; i < count.length; i++) {
             if (max < count[i]) {
-                // 최빈값이 1개면 i
+                // 최빈값이 1개일 경우 i
                 max = count[i];
                 answer = i;
             } else if (max == count[i]) {
-                // 최빈값이 여러 개면 -1
+                // 최빈값이 여러 개일 경우 -1
                 answer = -1;
             }
         }
