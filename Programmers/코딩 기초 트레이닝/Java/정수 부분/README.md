@@ -3,7 +3,7 @@
 <br>
 
 ## 문제설명
-실수 `flo`가 매개 변수로 주어질 때, `flo`의 정수 부분을 return 하도록 solution 함수를 완성해 주세요.
+실수 `flo`가 매개변수로 주어질 때, `flo`의 정수 부분을 return 하도록 solution 함수를 완성해 주세요.
 
 <br>
 
