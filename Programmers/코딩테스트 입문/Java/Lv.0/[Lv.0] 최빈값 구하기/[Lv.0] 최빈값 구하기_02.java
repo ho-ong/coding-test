@@ -10,8 +10,8 @@ class Solution {
             // groupingBy() : 원소를 그룹화
             // entrySet() : Map의 전체 key-value를 반환
             // sorted(compare()) : 비교 후 정렬
-            Arrays.stream(array).boxed().collect(Collectors.groupingBy(o -> o)).entrySet())
-            .stream().sorted((t0, t1) -> Integer.compare(t1.getValue().size(), t0.getValue().size()))
+            Arrays.stream(array).boxed().collect(Collectors.groupingBy(i -> i)).entrySet())
+            .stream().sorted((s0, s1) -> Integer.compare(s1.getValue().size(), s0.getValue().size()))
             .collect(Collectors.toList());
 
         // list의 크기가 1보다 크고, list의 1, 2번째 값의 차가 0일 경우 -1
