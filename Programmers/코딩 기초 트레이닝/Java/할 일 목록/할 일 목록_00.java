@@ -12,6 +12,8 @@ class Solution {
             }
         }
 
-        return list;
+        String[] answer = new String[list.size()];
+        answer = list.toArray(answer);
+        return answer;
     }
 }
