@@ -3,7 +3,6 @@ class Solution {
         String answer = "";
 
         for (int i = 0; i < finished.length; i++) {
-            // finished[i]가 false일 경우
             answer = finished[i] == false ? answer + todo_list[i] + "," : answer;
         }
 
