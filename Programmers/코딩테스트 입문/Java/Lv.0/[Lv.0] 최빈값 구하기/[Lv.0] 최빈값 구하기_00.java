@@ -8,7 +8,7 @@ class Solution {
         max = array[array.length - 1];
         int count[] = new int[max + 1]; // 빈도수
 
-        // 배열의 원소가 같은지 체크
+        // 배열의 원소가 같은지 확인
         for (int i = 0; i < array.length; i++) {
             // 배열의 원소가 같을 경우 count 증가
             count[array[i]]++;
