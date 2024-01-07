@@ -26,7 +26,7 @@
 ## 입출력 예 설명
 - 입출력 예 설명 #1
     - 서로 다른 구슬 3개 중 2개를 고르는 경우의 수는 3입니다.
-    <br><img src="image/1.png" width="300" />
+    <br><br><img src="image/1.png" width="300" />
 
 - 입출력 예 설명 #2
     - 서로 다른 구슬 5개 중 3개를 고르는 경우의 수는 10입니다.
@@ -35,7 +35,7 @@
 
 ## Hint
 - 서로 다른 `n`개 중 `m`개를 뽑는 경우의 수 공식은 다음과 같습니다.
-<br><img src="image/2.png" width="300" />
+<br><br><img src="image/2.png" width="300" />
 
 <br>
 
