@@ -3,7 +3,7 @@ class Solution {
         String answer = "";
 
         for (int i = 0; i < str1.length(); i++) {
-            // 문자열을 1개씩 자르고, 번갈아 가며 합치기
+            // 문자열을 1개씩 자르고, 번갈아 가면서 합치기
             answer += str1.substring(i, i + 1);
             answer += str2.substring(i, i + 1);
             // answer += str1.charAt(i);
