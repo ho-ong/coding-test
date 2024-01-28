@@ -8,6 +8,7 @@ class Solution {
         int[] answer = new int[str.length];
 
         for (int i = 0; i < str.length; i++) {
+            // 배열에 원소를 넣기
             answer[i] = Integer.parseInt(str[i]);
         }
 

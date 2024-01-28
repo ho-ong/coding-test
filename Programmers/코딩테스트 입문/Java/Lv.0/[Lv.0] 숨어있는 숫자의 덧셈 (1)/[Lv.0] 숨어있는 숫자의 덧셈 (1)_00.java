@@ -7,6 +7,7 @@ class Solution {
         String[] str = s.split("");
 
         for (int i = 0; i < str.length; i++) {
+            // 배열에 원소를 넣기
             answer += Integer.valueOf(str[i]);
         }
 
