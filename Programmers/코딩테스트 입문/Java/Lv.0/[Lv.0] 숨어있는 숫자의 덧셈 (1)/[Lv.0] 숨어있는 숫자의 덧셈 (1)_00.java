@@ -7,7 +7,7 @@ class Solution {
         String[] str = s.split("");
 
         for (int i = 0; i < str.length; i++) {
-            // 배열에 원소를 넣기
+            // 배열의 원소를 모두 더하기
             answer += Integer.valueOf(str[i]);
         }
 
