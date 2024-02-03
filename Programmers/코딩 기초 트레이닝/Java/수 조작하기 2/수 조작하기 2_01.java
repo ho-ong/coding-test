@@ -6,19 +6,19 @@ class Solution {
             int num = numLog[i] - numLog[i - 1];
 
             switch (num) {
-                case 1 : // 1 : w
+                case 1: // 1: w
                     answer += 'w';
                     break;
-                case -1 : // -1 : s
+                case -1: // -1: s
                     answer += 's';
                     break;
-                case 10 : // 10 : d
+                case 10: // 10: d
                     answer += 'd';
                     break;
-                case -10 : // -10 : a
+                case -10: // -10: a
                     answer += 'a';
                     break;
-                default :
+                default:
                     break;
             }
         }

@@ -2,7 +2,7 @@ class Solution {
     public int solution(String my_string) {
         int answer = 0;
 
-        // [a-zA-Z] : a부터 z까지 or A부터 Z까지
+        // [a-zA-Z]: a부터 z까지 or A부터 Z까지
         String s = my_string.replaceAll("[a-zA-Z]", "");
         String[] str = s.split("");
 

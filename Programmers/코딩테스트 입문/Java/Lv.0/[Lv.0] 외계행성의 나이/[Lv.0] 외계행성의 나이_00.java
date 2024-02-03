@@ -5,7 +5,7 @@ class Solution {
         String[] str = s.split("");
 
         for (int i = 0; i < s.length(); i++) {
-            // + 97 : 아스키 코드 변환
+            // + 97: 아스키 코드 변환
             // char 문자 변환
             answer += (char) (Integer.parseInt(str[i]) + 97);
         }

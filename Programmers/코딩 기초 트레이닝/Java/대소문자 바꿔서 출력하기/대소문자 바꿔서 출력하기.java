@@ -9,12 +9,12 @@ public class Solution {
         for (int i = 0; i < a.length(); i++) {
             char c = a.charAt(i);
 
-            // isUpperCase(), isLowerCase() : 대소문자 여부 확인 후 true, false 반환
+            // isUpperCase(), isLowerCase(): 대소문자 여부 확인 후 true, false 반환
             if (Character.isLowerCase(c)) {
-                // toUpperCase() : 대문자 변환
+                // toUpperCase(): 대문자 변환
                 answer += Character.toUpperCase(c);
             } else {
-                // toLowerCase() : 소문자 변환
+                // toLowerCase(): 소문자 변환
                 answer += Character.toLowerCase(c);
             }
         }

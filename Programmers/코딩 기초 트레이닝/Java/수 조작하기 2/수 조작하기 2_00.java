@@ -6,13 +6,13 @@ class Solution {
             int num = numLog[i] - numLog[i - 1];
 
             if (num == 1) {
-                answer += "w"; // 1 : w
+                answer += "w"; // 1: w
             } else if (num == -1) {
-                answer += "s"; // -1 : s
+                answer += "s"; // -1: s
             } else if (num == 10) {
-                answer += "d"; // 10 : d
+                answer += "d"; // 10: d
             } else if (num == -10) {
-                answer += "a"; // -10 : a
+                answer += "a"; // -10: a
             }
         }
 

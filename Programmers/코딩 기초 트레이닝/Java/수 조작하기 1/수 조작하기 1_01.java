@@ -4,19 +4,19 @@ class Solution {
 
         for (char c : control.toCharArray()) {
             switch (c) {
-                case 'w' : // w : +1
+                case 'w': // w: +1
                     answer += 1;
                     break;
-                case 's' : // s : -1
+                case 's': // s: -1
                     answer -= 1;
                     break;
-                case 'd' : // d : +10
+                case 'd': // d: +10
                     answer += 10;
                     break;
-                case 'a' : // a : -10
+                case 'a': // a: -10
                     answer -= 10;
                     break;
-                default :
+                default:
                     break;
             }
         }

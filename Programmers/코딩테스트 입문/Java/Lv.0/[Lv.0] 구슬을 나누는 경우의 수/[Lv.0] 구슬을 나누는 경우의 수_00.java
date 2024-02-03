@@ -3,7 +3,7 @@ import java.math.BigInteger;
 class Solution {
     // 팩토리얼 함수
     public BigInteger fac(int num) {
-        // BigInteger : 큰 정수를 처리, 문자열 형태로 숫자를 처리
+        // BigInteger: 큰 정수를 처리, 문자열 형태로 숫자를 처리
         BigInteger big = new BigInteger("1");
 
         // 팩토리얼 (1 * 2, 1 * 2 * 3, ...)

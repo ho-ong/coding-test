@@ -5,7 +5,7 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
 
-        // split() : 문자열을 분리하여 배열에 저장 후 반환
+        // split(): 문자열을 분리하여 배열에 저장 후 반환
         String[] str = a.split("");
 
         for (int i = 0; i < str.length; i++) {
