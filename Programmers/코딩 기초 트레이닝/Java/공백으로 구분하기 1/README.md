@@ -18,7 +18,7 @@
 | my_string | result |
 |---|---|
 | "i love you" | ["i", "love", "you"] |
-| "programmers"	 | ["programmers"] |
+| "programmers" | ["programmers"] |
 
 <br>
 
