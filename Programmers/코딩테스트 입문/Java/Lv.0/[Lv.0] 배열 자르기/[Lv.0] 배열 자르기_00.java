@@ -4,7 +4,7 @@ class Solution {
 
         // 인덱스 num1부터 num2까지 자른 원소 구하기
         for (int i = num1; i <= num2; i++) {
-            // num1이 1이면 answer[0] = numbers[1]
+            // num1이 1일 경우 answer[0] = numbers[1]
             answer[i - num1] = numbers[i];
         }
 
