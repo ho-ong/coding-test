@@ -7,8 +7,7 @@ class Solution {
         for (int i = 0; i < todo_list.length; i++) {
             // finished[i]가 false일 경우
             if (finished[i] == false) {
-                // todo_list의 원소를 문자열 배열에 추가
-                list.add(todo_list[i]);
+                list.add(todo_list[i]); // 추가
             }
         }
 

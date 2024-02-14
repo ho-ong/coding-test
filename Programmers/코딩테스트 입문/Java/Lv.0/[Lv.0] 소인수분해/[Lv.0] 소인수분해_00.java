@@ -12,7 +12,7 @@ class Solution {
                     n /= i;
                 }
 
-                list.add(i);
+                list.add(i); // 추가
             }
         }
 

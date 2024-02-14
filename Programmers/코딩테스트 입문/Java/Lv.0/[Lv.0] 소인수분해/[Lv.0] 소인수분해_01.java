@@ -11,7 +11,7 @@ class Solution {
             // 나머지가 0일 경우 n의 소인수
             if (n % div == 0) {
                 n /= div;
-                set.add(div);
+                set.add(div); // 추가
             } else {
                 div++;
             }
