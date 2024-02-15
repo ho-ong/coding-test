@@ -5,7 +5,7 @@ class Solution {
         for (int i = 0; i < finished.length; i++) {
             // finished[i]가 false일 경우
             if (finished[i] == false) {
-                // todo_list의 원소를 문자열 배열에 추가
+                // 배열의 원소를 모두 추가하기
                 answer += todo_list[i] + ",";
             }
         }

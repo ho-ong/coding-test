@@ -7,7 +7,7 @@ class Solution {
         Arrays.sort(str);
 
         for (int i = 0; i < str.length; i++) {
-            // 문자열의 원소를 모두 합치기
+            // 배열의 원소를 모두 합치기
             answer += str[i];
         }
 

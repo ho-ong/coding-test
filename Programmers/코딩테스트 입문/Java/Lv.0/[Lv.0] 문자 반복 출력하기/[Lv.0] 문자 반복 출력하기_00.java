@@ -6,7 +6,7 @@ class Solution {
         String[] str = my_string.split("");
 
         for (int i = 0; i < my_string.length(); i++) {
-            // 문자열의 원소를 반복하여 모두 합치기
+            // 배열의 원소를 반복하여 모두 합치기
             answer += str[i].repeat(n);
         }
 

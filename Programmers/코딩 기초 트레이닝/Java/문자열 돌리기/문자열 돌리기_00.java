@@ -9,7 +9,7 @@ public class Solution {
         String[] str = a.split("");
 
         for (int i = 0; i < str.length; i++) {
-            // 문자열의 원소를 출력하기
+            // 배열의 원소를 출력하기
             System.out.println(str[i]);
         }
     }
