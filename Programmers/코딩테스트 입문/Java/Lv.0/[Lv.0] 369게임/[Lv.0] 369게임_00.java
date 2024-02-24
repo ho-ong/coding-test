@@ -9,8 +9,7 @@ class Solution {
                 answer++; // 증가
             }
 
-            // order를 10으로 나누기
-            order /= 10;
+            order /= 10; // 나누기
         }
 
         return answer;

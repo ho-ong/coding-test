@@ -2,13 +2,14 @@ import java.util.*;
 
 class Solution {
     public int[] solution(int n, int[] numlist) {
+        // list 생성
         List<Integer> list = new ArrayList<>();
 
         // numlist 배열의 원소를 num에 넣기
         for (int num : numlist) {
             // 나머지가 0일 경우 n의 배수
             if (num % n == 0) {
-                list.add(num); // 추가
+                list.add(num); // list에 추가
             }
         }
 

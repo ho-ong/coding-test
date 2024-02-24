@@ -10,13 +10,14 @@ class Solution {
         while (n >= 2) {
             // 나머지가 0일 경우 n의 소인수
             if (n % div == 0) {
-                n /= div;
-                set.add(div); // 추가
+                n /= div; // 나누기
+                set.add(div); // set에 추가
             } else {
-                div++;
+                div++; // 증가
             }
         }
 
+        // set의 원소를 int형으로 변환하여 배열 생성하기
         return set.stream().mapToInt(Integer::intValue).toArray();
     }
 }
