@@ -3,7 +3,7 @@ class Solution {
         int answer = 0;
 
         for (int i = 0; i < array.length; i++) {
-            // height보다 클 경우
+            // array 배열의 원소가 height보다 클 경우
             if (array[i] > height) {
                 answer++; // 증가
             }

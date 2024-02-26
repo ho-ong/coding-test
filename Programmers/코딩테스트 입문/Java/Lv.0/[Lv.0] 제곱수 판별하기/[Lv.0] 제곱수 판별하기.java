@@ -1,7 +1,7 @@
 class Solution {
     public int solution(int n) {
         // Math.sqrt(): 제곱근 반환
-        // n이 제곱근일 경우 1, 아닐 경우 2
+        // 나머지가 0일 경우 n은 제곱수
         return Math.sqrt(n) % 1 == 0 ? 1 : 2;
     }
 }
