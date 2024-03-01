@@ -7,6 +7,8 @@ public class Solution {
         int b = sc.nextInt();
         System.out.println("a = " + a);
         System.out.println("b = " + b);
+
+        // \n: 줄 바꿈
         // System.out.println("a = " + a + "\nb = " + b);
     }
 }
