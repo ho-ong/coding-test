@@ -13,7 +13,7 @@
 <br>
 
 ## 입출력 예
-| numer1 | denom1 | numer2 | denom1 | result |
+| numer1 | denom1 | numer2 | denom2 | result |
 |---|---|---|---|---|
 | 1 | 2 | 3 | 4 | [5, 4] |
 | 9 | 2 | 1 | 3 | [29, 6] |
