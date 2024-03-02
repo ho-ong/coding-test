@@ -15,7 +15,7 @@ class Solution {
         numer1 *= denom2;
         numer2 *= denom1;
 
-        // 분자와 분모 구하기
+        // 분자와 분모 구하기 (통분)
         // 분자 = 분자1 * 분모2 + 분자2 * 분모1
         // 분모 = 분모1 * 분모2
         int[] answer = new int[] {numer1 + numer2, denom1 * denom2}; // 분자 10, 분모 8
@@ -23,7 +23,7 @@ class Solution {
         // 최대공약수 구하기
         int max = GCD(answer[0], answer[1]); // 최대공약수 2
 
-        // 분자와 분모를 최대공약수로 나누기
+        // 분자와 분모를 최대공약수로 나누기 (약분)
         answer[0] /= max; // 10 / 2 = 5
         answer[1] /= max; // 8 / 2 = 4
         return answer; // [5, 4]
