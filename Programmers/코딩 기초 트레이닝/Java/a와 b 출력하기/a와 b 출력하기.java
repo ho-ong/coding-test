@@ -8,7 +8,7 @@ public class Solution {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
-        // \n: 줄 바꿈
-        // System.out.println("a = " + a + "\nb = " + b);
+        // print() 함수 사용 시 \n을 통해 줄 바꿈 가능
+        // System.out.print("a = " + a + "\nb = " + b);
     }
 }

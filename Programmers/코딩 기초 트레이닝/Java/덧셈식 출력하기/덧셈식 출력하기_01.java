@@ -6,9 +6,8 @@ public class Solution {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        // print(): 한 줄 출력 (줄 바꿈 X)
-        // println(): 한 줄 출력 (줄 바꿈 O)
-        // printf(): 서식 지정 출력
+        // printf("출력서식", 출력내용): 서식 지정 출력 (줄 바꿈 X)
+        // 출력서식과 출력내용의 순서 중요
         System.out.printf("%d + %d = %d", a, b, a + b);
     }
 }
