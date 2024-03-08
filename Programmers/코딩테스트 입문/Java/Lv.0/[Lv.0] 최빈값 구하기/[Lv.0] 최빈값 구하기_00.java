@@ -2,7 +2,7 @@ import java.util.*;
 
 class Solution {
     public int solution(int[] array) {
-        Arrays.sort(array);
+        Arrays.sort(array); // 오름차순 정렬
         int answer = 0;
         int max = 0; // 최댓값
         max = array[array.length - 1];
