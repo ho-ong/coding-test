@@ -14,7 +14,7 @@ class Solution {
             // 최빈값 구하기
             if (max < cnt) {
                 // 최빈값이 1개일 경우 i
-                max = count;
+                max = cnt;
                 answer = num;
             } else if (max == cnt) {
                 // 최빈값이 여러 개일 경우 -1

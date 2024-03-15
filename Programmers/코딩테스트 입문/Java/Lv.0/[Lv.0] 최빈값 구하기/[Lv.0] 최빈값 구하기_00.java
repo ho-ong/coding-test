@@ -4,8 +4,7 @@ class Solution {
     public int solution(int[] array) {
         Arrays.sort(array); // 오름차순 정렬
         int answer = 0;
-        int max = 0; // 최댓값
-        max = array[array.length - 1];
+        int max = array[array.length - 1]; // 최댓값
         int[] cnt = new int[max + 1]; // 빈도수
 
         // 배열의 원소가 같은지 확인
