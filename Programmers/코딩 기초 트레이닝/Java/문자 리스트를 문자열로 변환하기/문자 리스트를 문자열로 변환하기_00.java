@@ -3,7 +3,8 @@ class Solution {
         String answer = "";
 
         for (int i = 0; i < arr.length; i++) {
-            // 배열의 원소를 모두 합치기
+            // arr 배열의 원소를 합치기
+            // ["a", "b", "c"] -> "abc"
             answer += arr[i];
         }
 
