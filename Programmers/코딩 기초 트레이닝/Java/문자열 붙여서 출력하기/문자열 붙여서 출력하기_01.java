@@ -6,8 +6,8 @@ public class Solution {
         String a = sc.next();
         String b = sc.next();
 
-        // concat(): 문자열 연결
-        // 문자열 a와 문자열 b를 연결 (apple pen -> applepen)
+        // concat(): 문자열 병합
+        // 문자열 a와 문자열 b를 병합 (apple pen -> applepen)
         System.out.println(a.concat(b));
     }
 }
