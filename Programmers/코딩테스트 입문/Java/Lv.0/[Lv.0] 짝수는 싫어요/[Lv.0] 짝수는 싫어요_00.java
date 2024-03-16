@@ -7,7 +7,8 @@ class Solution {
 
         // 홀수는 1부터 시작, 2씩 증가 (1, 3, 5, ...)
         for (int i = 1; i <= n; i += 2) {
-            // i가 1일 경우 answer[0] = 1
+            // answer 배열의 원소를 생성하기
+            // i = 1 -> answer[0] = 1
             answer[i / 2] = i;
         }
 
