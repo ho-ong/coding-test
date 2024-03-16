@@ -2,25 +2,31 @@ import java.util.*;
 
 class Solution {
     public int solution(int[] array) {
-        Arrays.sort(array); // 오름차순 정렬
+        // array 배열 오름차순 정렬 [1, 2, 3, 3, 3, 4]
+        Arrays.sort(array);
         int answer = 0;
-        int max = array[array.length - 1]; // 최댓값
-        int[] cnt = new int[max + 1]; // 빈도수
+        int max = array[array.length - 1]; // 최댓값 5
+        int[] cnt = new int[max + 1]; // 빈도수 [0, 0, 0, 0, 0, 0]
 
-        // 배열의 원소가 같은지 확인
+        // 빈도수 구하기
         for (int i = 0; i < array.length; i++) {
-            // 배열의 원소가 같을 경우 count 증가
+            // array[0] -> cnt[1] 1 증가
+            // array[1] -> cnt[2] 1 증가
+            // array[2], array[3], array[4] -> cnt[3] 3 증가
+            // array[5] -> cnt[4] 1 증가
+            // [0, 1, 1, 3, 1, 0]
             cnt[array[i]]++;
         }
 
-        max = cnt[0];
+        max = cnt[0]; // 최댓값 초기화
 
         // 최빈값 구하기
+        // 아래 for문을 돌면서 max 값은 변경된다. (0 -> 1 -> 3)
         for (int i = 1; i < cnt.length; i++) {
             if (max < cnt[i]) {
                 // 최빈값이 1개일 경우 i
-                max = cnt[i];
-                answer = i;
+                max = cnt[i]; // 1 = 3
+                answer = i; // 3
             } else if (max == cnt[i]) {
                 // 최빈값이 여러 개일 경우 -1
                 answer = -1;
