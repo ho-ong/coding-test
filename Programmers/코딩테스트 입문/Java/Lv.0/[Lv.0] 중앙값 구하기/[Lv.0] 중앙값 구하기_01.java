@@ -7,6 +7,7 @@ class Solution {
 
         // 중앙값 = 배열의 길이 / 2 = 오른쪽으로 1비트 이동한 값
         // 5 / 2 = 2
-        return array[array.length >> 1]; // 7
+        // array[2] = 7
+        return array[array.length >> 1];
     }
 }
