@@ -31,7 +31,7 @@ class Solution {
             // 최댓값 = 빈도수
             // 최댓값과 빈도수가 같을 경우 최빈값은 여러 개이다.
             } else if (max == cnt[i]) {
-                answer = -1;
+                answer = -1; // -1
             }
         }
 

@@ -2,7 +2,7 @@ import java.util.stream.IntStream;
 
 class Solution {
     public int[] solution(int n) {
-        // 배열 스트림 생성 -> filter -> 배열 변환
+        // 기본형 특화 스트림 생성 -> filter -> 배열 변환
         // 기본형 특화 스트림: IntStream, LongStream, DoubleStream (숫자 스트림을 효율적으로 처리)
         // rangeClosed(start, end): start(포함)부터 end(포함)까지 범위 내 정수를 순서대로 생성
         // filter(): 스트림 내 원소들을 하나씩 평가하여 추출
