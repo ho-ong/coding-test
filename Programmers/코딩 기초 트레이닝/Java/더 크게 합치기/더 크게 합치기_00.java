@@ -10,6 +10,7 @@ class Solution {
         String ab = String.valueOf(a) + String.valueOf(b); // "9" + "91" = "991"
         String ba = String.valueOf(b) + String.valueOf(a); // "91" + "9" = "919"
 
+        // ab 합 >= ba 합
         // 991 >= 919
         if (Integer.parseInt(ab) >= Integer.parseInt(ba)) {
             return Integer.parseInt(ab); // 991

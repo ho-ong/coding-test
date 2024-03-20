@@ -10,6 +10,7 @@ class Solution {
         int sum = Integer.parseInt(String.valueOf(a) + String.valueOf(b)); // "2" + "91" = "291" -> 291
         int mul = 2 * a * b; // 2 * 2 * 91 = 364
 
+        // 합 >= 곱
         // 291 >= 364
         if (sum >= mul) {
             return sum; // 291
