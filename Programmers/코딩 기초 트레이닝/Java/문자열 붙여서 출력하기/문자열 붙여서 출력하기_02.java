@@ -7,7 +7,8 @@ public class Solution {
         String b = sc.next();
 
         // join(): 문자열 병합
-        // 문자열 a와 문자열 b를 공백없이 병합 (apple pen -> applepen)
+        // 문자열 a와 문자열 b를 공백없이 병합
+        // apple pen -> applepen
         System.out.println(String.join("", a, b));
     }
 }

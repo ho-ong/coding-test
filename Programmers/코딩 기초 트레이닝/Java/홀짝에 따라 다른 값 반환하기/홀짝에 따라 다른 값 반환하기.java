@@ -6,12 +6,14 @@ class Solution {
         if (n % 2 == 0) {
             // 짝수는 2부터 시작, 2씩 증가 (2, 4, 6, ...)
             for (int i = 2; i <= n; i += 2) {
-                answer += i * i; // i의 제곱의 합
+                // 짝수인 모든 양의 정수의 제곱의 합
+                answer += i * i;
             }
         } else {
             // 홀수는 1부터 시작, 2씩 증가 (1, 3, 5, ...)
             for (int i = 1; i <= n; i += 2) {
-                answer += i; // i의 합
+                // 홀수인 모든 양의 정수의 합
+                answer += i;
             }
         }
 

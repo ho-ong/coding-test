@@ -5,13 +5,13 @@ class Solution {
         int mul = 1; // 곱
 
         for (int i = 0; i < num_list.length; i++) {
-            // [3, 4, 5, 2, 1]
-            sum += num_list[i]; // 합 15
-            mul *= num_list[i]; // 곱 120
+            // num_list 배열의 원소의 합, 곱 구하기
+            sum += num_list[i]; // 3 + 4 + 5 + 2 + 1 = 15
+            mul *= num_list[i]; // 3 * 4 * 5 * 2 * 1 = 120
         }
 
-        // 합의 제곱이 곱보다 클 경우 1, 아닐 경우 0
-        // 합의 제곱 > 곱
+        // 합의 제곱이 클 경우 1, 아닐 경우 0
+        // 15 * 15 = 225
         // 225 > 120
         if (sum * sum > mul) {
             answer = 1;

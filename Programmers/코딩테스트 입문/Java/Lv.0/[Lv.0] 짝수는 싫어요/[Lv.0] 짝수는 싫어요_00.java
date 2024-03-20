@@ -9,6 +9,7 @@ class Solution {
         for (int i = 1; i <= n; i += 2) {
             // answer 배열의 원소를 생성하기
             // i = 1 -> answer[0] = 1
+            // 1, 3, 5, 7, 9 -> [1, 3, 5, 7, 9]
             answer[i / 2] = i;
         }
 

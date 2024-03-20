@@ -1,6 +1,8 @@
 class Solution {
     public int solution(int n) {
-        int answer = 1; // 피자의 판 수 (1부터 시작)
+        // 피자의 판 수 = answer
+        // 최소 1판이 필요하므로 1부터 시작
+        int answer = 1;
 
         while (true) {
             // 피자의 조각 수 = answer * 6
