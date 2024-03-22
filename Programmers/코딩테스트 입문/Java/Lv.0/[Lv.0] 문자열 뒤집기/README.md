@@ -21,10 +21,10 @@
 <br>
 
 ## 입출력 예 설명
-- 입출력 예 설명 #1
+- 입출력 예 #1
     - `my_string`이 "jaron"이므로 거꾸로 뒤집은 "noraj"를 return 합니다.
 
-- 입출력 예 설명 #2
+- 입출력 예 #2
     - `my_string`이 "bread"이므로 거꾸로 뒤집은 "daerb"를 return 합니다.
 
 <br>
