@@ -3,7 +3,7 @@
 <br>
 
 ## 문제설명
-문자열 `my_string`과 정수 `n`이 매개변수로 주어질 때, `my_string`에 들어있는 각 문자를 `n`만큼 반복한 문자열을 return 하도록 solution 함수를 완성해 주세요.
+문자열 `my_string`과 정수 `n`이 매개변수로 주어질 때, `my_string`에 들어있는 각 문자를 `n`만큼 반복한 문자열을 return 하도록 solution 함수를 완성해 보세요.
 
 <br>
 
@@ -22,7 +22,7 @@
 <br>
 
 ## 입출력 예 설명
-- 입출력 예 설명 #1
+- 입출력 예 #1
     - "hello"의 각 문자를 세 번씩 반복한 "hhheeellllllooo"를 return 합니다.
 
 <br>
