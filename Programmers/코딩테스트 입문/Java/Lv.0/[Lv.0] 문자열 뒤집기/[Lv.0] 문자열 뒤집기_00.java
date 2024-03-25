@@ -2,9 +2,14 @@ class Solution {
     public String solution(String my_string) {
         String answer = "";
 
-        // 마지막 원소부터 역순으로 문자열에 넣기 (문자열의 길이 - 1)
+        // 문자열 my_string의 마지막 원소부터 첫 번째 원소까지 역순으로 넣기
+        // 문자열의 마지막 원소 = 문자열의 길이 - 1
         for (int i = my_string.length() - 1; i >= 0; i--) {
-            // 문자열의 원소를 모두 합치기
+            // charAt(): 문자열 내 해당 인덱스에 위치한 문자열을 선택하여 char형 문자로 변환
+            // 문자열 my_string 내 인덱스 i에 위치한 문자열을 문자로 변환 ("jaron" -> 'j')
+
+            // 문자열 my_string의 문자를 합치기
+            // 'n', 'o', 'r', 'a', 'j' -> "noraj"
             answer += my_string.charAt(i);
         }
 
