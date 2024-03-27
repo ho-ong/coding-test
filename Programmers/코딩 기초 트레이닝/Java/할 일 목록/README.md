@@ -25,7 +25,7 @@
 <br>
 
 ## 입출력 예 설명
-- 입출력 예 설명 #1
+- 입출력 예 #1
     - 예제 1번의 `todo_list` 중에서 "problemsolving"과 "swim"은 마쳤고, "practiceguitar"와 "studygraph"는 아직 마치지 못했으므로 `todo_list`에서 나온 순서대로 담은 문자열 배열 ["practiceguitar", "studygraph"]를 return 합니다.
 
 <br>

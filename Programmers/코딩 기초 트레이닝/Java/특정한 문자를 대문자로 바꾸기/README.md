@@ -21,10 +21,10 @@
 <br>
 
 ## 입출력 예 설명
-- 입출력 예 설명 #1
+- 입출력 예 #1
     - 예제 1번의 `my_string`은 "programmers"이고, `alp`가 "p"이므로 `my_string`에 모든 "p"를 대문자인 "P"로 바꾼 문자열 "Programmers"를 return 합니다.
 
-- 입출력 예 설명 #2
+- 입출력 예 #2
     - 예제 2번의 `alp`는 "x"이고, `my_string`에 "x"는 없습니다. 따라서 "lowercase"를 return 합니다.
 
 <br>

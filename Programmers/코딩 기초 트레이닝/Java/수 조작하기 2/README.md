@@ -31,7 +31,7 @@
 <br>
 
 ## 입출력 예 설명
-- 입출력 예 설명 #1
+- 입출력 예 #1
     - "wsdawsdassw"를 따라 `numLog[0]`에서부터 시작해 조작을 하면 `numLog`의 값과 순서대로 일치합니다. 따라서 "wsdawsdassw"를 return 합니다.
 
 <br>

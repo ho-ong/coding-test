@@ -24,10 +24,10 @@
 <br>
 
 ## 입출력 예 설명
-- 입출력 예 설명 #1
+- 입출력 예 #1
     - 예제 1번의 `my_string`은 " i    love  you"로 공백을 기준으로 단어를 나누면 "i", "love", "you" 3개의 단어가 있습니다. 따라서 ["i", "love", "you"]를 return 합니다.
 
-- 입출력 예 설명 #2
+- 입출력 예 #2
     - 예제 2번의 `my_string`은 "    programmers  "로 단어는 "programmers" 하나만 있습니다. 따라서 ["programmers"]를 return 합니다.
 
 <br>

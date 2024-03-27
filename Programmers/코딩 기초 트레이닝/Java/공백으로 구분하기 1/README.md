@@ -23,10 +23,10 @@
 <br>
 
 ## 입출력 예 설명
-- 입출력 예 설명 #1
+- 입출력 예 #1
     - 예제 1번의 `my_string`은 "i love you"로 공백 한 칸으로 나누어진 단어들은 앞에서부터 순서대로 "i", "love", "you"이므로 ["i", "love", "you"]를 return 합니다.
 
-- 입출력 예 설명 #2
+- 입출력 예 #2
     - 예제 2번의 `my_string`은 "programmers"로 단어가 하나만 있습니다. 따라서 ["programmers"]를 return 합니다.
 
 <br>
