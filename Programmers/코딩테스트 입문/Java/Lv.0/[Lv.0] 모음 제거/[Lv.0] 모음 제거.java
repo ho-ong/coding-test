@@ -4,6 +4,5 @@ class Solution {
         // 정규 표현식(Regular Expression)
         // [aeiou]: a, e, i, o, u (or 연산자)
         return my_string.replaceAll("[aeiou]", "");
-        // return my_string.replaceAll("a|e|i|o|u", "");
     }
 }
