@@ -12,6 +12,7 @@ public class Solution {
                 System.out.print("*");
             }
 
+            // 출력하기 (줄 바꿈)
             System.out.println();
         }
     }

@@ -8,7 +8,7 @@ class Solution {
         // 기본형 스트림 생성 -> map -> 합계 계산
         // 기본형 스트림: IntStream, LongStream, DoubleStream (숫자 스트림을 효율적으로 처리)
         // range(start, end): start(포함)부터 end(불포함)까지 범위 내 정수를 순서대로 생성
-        // map(): 스트림 내 원소들을 하나씩 특정 값으로 변환
+        // map(): 스트림 내 기존 원소를 새로운 원소로 매핑하여 반환
         // sum(): 합계 반환
 
         // 0(포함)부터 included 배열의 길이(불포함)까지 범위 내 정수를 순서대로 생성 (0, 1, 2, 3, 4)
