@@ -5,7 +5,7 @@ class Solution {
         // 사용 후 String으로 변환 필요 -> String.valueOf(), toString()
         // reverse(): 반전 반환
 
-        // 문자열 my_string의 반전 반환
+        // 문자열 my_string을 반전
         // "jaron" -> "noraj"
         return new StringBuilder(my_string).reverse().toString();
     }

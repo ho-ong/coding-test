@@ -1,8 +1,8 @@
 class Solution {
     public String solution(String my_string, String letter) {
-        // replace(target, replacement): 문자열을 다른 문자열로 치환
-        // replaceAll(regex, replacement): replace()와 비슷하나, 첫 번째 인자가 정규식
-        // replaceFirst(target, replacement): 첫 번째 발견되는 target만 치환
+        // replace(): 문자열을 다른 문자열로 치환
+        // 문자열 my_string 내 문자열 letter를 ""으로 치환 (""으로 치환 시 제거와 동일)
+        // "abcdef" -> "f"를 ""으로 치환 (제거) -> "abcde"
         return my_string.replace(letter, "");
     }
 }

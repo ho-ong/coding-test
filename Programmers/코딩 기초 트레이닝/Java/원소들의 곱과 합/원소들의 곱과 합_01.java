@@ -4,7 +4,7 @@ class Solution {
         int mul = 1; // 곱
 
         for (int num : num_list) {
-            // num_list 배열의 원소의 합, 곱 구하기
+            // num_list 배열의 원소의 합, 곱을 구하기
             sum += num; // 3 + 4 + 5 + 2 + 1 = 15
             mul *= num; // 3 * 4 * 5 * 2 * 1 = 120
         }

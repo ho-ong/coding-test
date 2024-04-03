@@ -3,6 +3,7 @@ class Solution {
         // 스트림 변환 -> reduce
         // chars(): 문자열의 문자들을 스트림으로 변환
         // reduce(): 스트림 내 원소들을 연산하여 하나의 값 반환
+
         // reduce(accumulator), reduce(identity, accumulator)
         // accumulator: 계산 로직 (연산을 수행하는 부분)
         // identity: 초깃값 (스트림이 빈 경우 초깃값 반환)

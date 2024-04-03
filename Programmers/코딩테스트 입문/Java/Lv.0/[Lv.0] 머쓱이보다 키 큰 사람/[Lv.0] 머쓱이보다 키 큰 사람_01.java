@@ -6,7 +6,7 @@ class Solution {
         // filter(): 스트림 내 원소 중 특정 조건에 해당하는 원소의 값만 추출하여 반환
         // count(): 개수 반환
 
-        // i가 클 경우 개수를 추출
+        // i가 클 경우 개수를 구하기
         // [149, 180, 192, 170] > 167
         return (int) Arrays.stream(array).filter(i -> i > height).count(); // 3
     }
