@@ -9,7 +9,7 @@ class Solution {
 
             // 문자열 code의 문자가 '1'일 경우
             if (code.charAt(i) == '1') {
-                // mode(0 또는 1)를 바꾸기 (0 -> 1, 1 -> 0)
+                // mode(0 또는 1)를 바꾸기 (0 <-> 1)
                 mode = 1 - mode; // 1 - 0 = 1
             // i를 2로 나눴을 때, 나머지가 mode(0 또는 1)일 경우
             } else if (i % 2 == mode) {
