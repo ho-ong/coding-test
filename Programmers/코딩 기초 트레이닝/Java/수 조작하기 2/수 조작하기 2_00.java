@@ -3,7 +3,6 @@ class Solution {
         String answer = "";
 
         for (int i = 1; i < numLog.length; i++) {
-            // 제한사항 참고
             // numLog[i] - numLog[i - 1]의 값은 1 또는 10
             // numLog[1] - numLog[0] -> 1 - 0 = 1
             int num = numLog[i] - numLog[i - 1];
