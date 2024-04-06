@@ -1,9 +1,15 @@
-import java.util.*;
+import java.util.stream.IntStream;
 
 class Solution {
     public int[] solution(int[] numbers, int num1, int num2) {
-        // copyOfRange(array, start, end): 배열의 특정 범위만큼 원소들을 복사하여 새로운 배열로 반환
-        // 복사할 원본 배열, 복사를 시작할 인덱스, 복사를 끝낼 인덱스
-        return Arrays.copyOfRange(numbers, num1, num2 + 1);
+        // 기본형 스트림 생성 -> map -> 배열 변환
+        // 기본형 스트림: IntStream, LongStream, DoubleStream (숫자 스트림을 효율적으로 처리)
+        // rangeClosed(start, end): start(포함)부터 end(포함)까지 범위 내 정수를 순서대로 생성
+        // map(): 스트림 내 기존 원소를 새로운 원소로 매핑하여 반환
+
+        // num1(포함)부터 num2(포함)까지 범위 내 정수를 순서대로 생성 (1, 2, 3)
+        // numbers 배열의 원소 중 인덱스 1, 2, 3에 위치한 원소를 배열로 변환
+        // numbers[1], numbers[2], numbers[3] -> 2, 3, 4 -> [2, 3, 4]
+        return IntStream.rangeClosed(num1, num2).map(i -> numbers[i]).toArray();
     }
 }

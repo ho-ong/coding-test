@@ -6,8 +6,8 @@ class Solution {
         // 배열 -> 리스트
         // 배열 스트림 생성 -> boxed -> collect -> 리스트 변환
         // boxed(): 기본형 스트림을 스트림으로 변환 (IntStream -> Stream<Integer>)
-        // collect(): 스트림을 List, Set 등의 형태로 변환
-        // collect(Collectors.toList()): 스트림 내 원소들을 리스트로 변환
+        // collect(): 스트림 내 원소를 변형 및 처리, List, Set 등의 자료형으로 변환
+        // collect(Collectors.toList()): 스트림 내 원소를 리스트로 변환
         List<Integer> list = Arrays.stream(num_list).boxed().collect(Collectors.toList());
 
         // boxed() 하는 이유?
