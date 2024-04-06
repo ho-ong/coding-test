@@ -19,7 +19,8 @@ class Solution {
                 // charAt(): 문자열 내 해당 인덱스에 위치한 문자열을 선택하여 char형 문자로 변환
                 // 문자열 my_string 내 인덱스 i에 위치한 문자열을 문자로 변환 ("hello" -> 'h')
 
-                // 문자를 j번(n까지) 반복하여 sb에 추가하기
+                // append(): 문자열 추가
+                // 문자열 my_string의 문자를 j번(n까지) 반복하여 sb에 추가하기
                 // ['h', 'e', 'l', 'l', 'o'] 3 -> "hhh" -> "hhheeellllllooo"
                 sb.append(my_string.charAt(i));
             }
