@@ -12,6 +12,7 @@ class Solution {
         // ASCII 코드 변환 (0-9 = 48-57, A-Z = 65-90, a-z = 97-122)
         // 정수 -> 문자 변환 (char), 문자 -> 정수 변환 (int)
 
+        // i를 ASCII 코드로 변환하여 합치기
         // "23" -> '2', '3' -> 2, 3 -> 'c', 'd' -> "cd"
         return String.valueOf(age).chars().mapToObj(i -> String.valueOf((char) (i + 49))).collect(Collectors.joining());
     }

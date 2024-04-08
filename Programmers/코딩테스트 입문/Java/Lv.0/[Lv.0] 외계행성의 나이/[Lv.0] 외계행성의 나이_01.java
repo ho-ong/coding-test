@@ -19,7 +19,7 @@ class Solution {
             // 정수 -> 문자 변환 (char), 문자 -> 정수 변환 (int)
 
             // insert(index, string): 지정한 인덱스에 문자열 삽입
-            // 인덱스 0에 문자 'd', 'c' 삽입
+            // 인덱스 0에 문자 'd', 'c'를 삽입하기
             // 3, 2 -> 'd', 'c' -> "cd"
             sb.insert(0, (char) (age % 10 + (int) 'a')); // 23 % 10 = 3 -> 'd'
             age /= 10; // 20 / 10 = 2 -> 'c'
