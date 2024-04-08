@@ -33,10 +33,15 @@ class Solution {
         }};
 
         String answer = "";
+
+        // split(): 문자열 분리
+        // 문자열 letter를 " " 기준으로 분리하고, str 배열에 순서대로 저장
+        // ".... . .-.. .-.. ---" -> ["....", ".", ".-..", ".-..", "---"]
         String[] str = letter.split(" ");
 
         for (String s : str) {
             // map의 키에 해당하는 값을 가져와 합치기
+            // ["....", ".", ".-..", ".-..", "---"] -> "hello"
             answer += map.get(s);
         }
 
