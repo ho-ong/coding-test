@@ -40,8 +40,8 @@ class Solution {
         String[] str = letter.split(" ");
 
         for (String s : str) {
-            // map의 키에 해당하는 값을 가져와 합치기
-            // ["....", ".", ".-..", ".-..", "---"] -> "hello"
+            // 문자열 s와 일치하는 map의 키를 찾고, 키의 값을 합치기
+            // "....", ".", ".-..", ".-..", "---" -> "h", "e", "l", "l", "o" -> "hello"
             answer += map.get(s);
         }
 

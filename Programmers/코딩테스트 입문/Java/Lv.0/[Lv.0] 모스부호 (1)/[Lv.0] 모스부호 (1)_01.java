@@ -39,11 +39,11 @@ class Solution {
         // collect(Collectors.joining()): 스트림 내 문자열 병합
 
         // split(): 문자열 분리
-        // 문자열 letter를 " " 기준으로 분리하고, str 배열에 순서대로 저장
+        // 문자열 letter를 " " 기준으로 분리하고, 배열에 순서대로 저장
         // ".... . .-.. .-.. ---" -> ["....", ".", ".-..", ".-..", "---"]
 
-        // map의 키에 해당하는 값을 가져와 합치기
-        // ["....", ".", ".-..", ".-..", "---"] -> "hello"
+        // 분리한 문자열 letter와 일치하는 map의 키를 찾고, 키의 값을 합치기
+        // "....", ".", ".-..", ".-..", "---" -> "h", "e", "l", "l", "o" -> "hello"
         return Arrays.stream(letter.split(" ")).map(map::get).collect(Collectors.joining());
     }
 }
