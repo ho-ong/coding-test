@@ -8,7 +8,7 @@ class Solution {
         BigInteger from = new BigInteger("1");
         BigInteger to = new BigInteger(String.valueOf(n));
 
-        // compareTo(): 숫자 또는 문자열을 비교하여 값을 반환
+        // compareTo(): 숫자 또는 문자열을 비교하여 값 반환
         // 숫자의 비교: 크다(1), 같다(0), 작다(-1)
         // 문자열의 비교: 같다(0), 양수/음수 값
         for (BigInteger i = from; i.compareTo(to) <= 0; i = i.add(BigInteger.ONE)) {
