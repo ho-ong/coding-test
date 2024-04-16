@@ -4,10 +4,8 @@ class Solution {
         // 문자열 my_string 내 문자열 a, e, i, o, u를 ""으로 치환 (""으로 치환 시 제거와 동일)
 
         // 정규표현식(Regular Expression)
-        // [ab], a|b: a 또는 b (or)
-        // [aeiou], a|e|i|o|u: a, e, i, o, u (or)
-        return my_string.replaceAll("[aeiou]", ""); // 방법 1
-
-        // return my_string.replaceAll("a|e|i|o|u", ""); // 방법 2
+        // [ab]: a 또는 b (or)
+        // [aeiou]: a, e, i, o, u (or)
+        return my_string.replaceAll("[aeiou]", "");
     }
 }
