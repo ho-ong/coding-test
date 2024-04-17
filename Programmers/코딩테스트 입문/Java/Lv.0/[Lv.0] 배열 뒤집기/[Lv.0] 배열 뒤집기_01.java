@@ -13,7 +13,7 @@ class Solution {
         List<Integer> list = Arrays.stream(num_list).boxed().collect(Collectors.toList());
 
         // boxed() 하는 이유?
-        // List, Set 등의 Collection 인터페이스에는 객체만 저장이 가능하기 때문에,
+        // List, Set 등의 Collection 인터페이스에는 객체만 저장이 가능하므로
         // int를 Integer 클래스로 변환하여 List<Integer>에 넣는다. (int -> Integer)
 
         // reverse(): 반전 반환
