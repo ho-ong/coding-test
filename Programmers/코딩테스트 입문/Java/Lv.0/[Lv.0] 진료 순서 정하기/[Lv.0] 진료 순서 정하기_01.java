@@ -14,7 +14,7 @@ class Solution {
 
         // map 생성 (키, 값 저장)
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
-        int idx = 1; // 인덱스
+        int cnt = 1;
 
         // sort 배열의 마지막 원소부터 첫 번째 원소까지 역순으로 넣기
         // 배열의 마지막 원소 = 배열의 길이 - 1
@@ -22,7 +22,7 @@ class Solution {
         for (int i = sort.length - 1; i >= 0; i--) {
             // map에 키, 값 추가
             // {76=1, 24=2, 3=3}
-            map.put(sort[i], idx++);
+            map.put(sort[i], cnt++);
         }
 
         for (int i = 0; i < emergency.length; i++) {
