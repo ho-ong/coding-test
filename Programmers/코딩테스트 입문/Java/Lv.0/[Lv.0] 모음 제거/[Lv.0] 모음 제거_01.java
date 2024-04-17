@@ -6,6 +6,8 @@ class Solution {
         // 정규표현식(Regular Expression)
         // a|b: a 또는 b (or)
         // a|e|i|o|u: a, e, i, o, u (or)
+
+        // "bus" -> "a|e|i|o|u"를 ""으로 치환 (제거) -> "bs"
         return my_string.replaceAll("a|e|i|o|u", "");
     }
 }
