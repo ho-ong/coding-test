@@ -2,24 +2,26 @@ class Solution {
     public int[] solution(int[] numbers, String direction) {
         int[] answer = new int[numbers.length];
 
+        // direction이 "right"일 경우
         if (direction.equals("right")) {
-            // direction이 "right"일 경우
-            // answer 배열의 처음 원소 = numbers 배열의 마지막 원소
-            answer[0] = numbers[numbers.length - 1];
+            // answer 배열의 첫 번째 원소 = numbers 배열의 마지막 원소
+            answer[0] = numbers[numbers.length - 1]; // 3
 
-            // numbers 배열의 마지막 원소 개수만큼 반복하기 (0부터 시작)
             for (int i = 0; i < numbers.length - 1; i++) {
+                // i = 0 -> answer[1] = numbers[0]
                 // answer[1] = numbers[0], answer[2] = numbers[1], ...
+                // [1, 2, 3] -> [3, 1, 2]
                 answer[i + 1] = numbers[i];
             }
+        // direction이 "left"일 경우
         } else {
-            // direction이 "left"일 경우
-            // answer 배열의 마지막 원소 = numbers 배열의 처음 원소
-            answer[answer.length - 1] = numbers[0];
+            // answer 배열의 마지막 원소 = numbers 배열의 첫 번째 원소
+            answer[answer.length - 1] = numbers[0]; // 1
 
-            // numbers 배열의 길이만큼 반복하기 (1부터 시작)
             for (int i = 1; i < numbers.length; i++) {
+                // i = 1 -> answer[0] = numbers[1]
                 // answer[0] = numbers[1], answer[1] = numbers[2], ...
+                // [1, 2, 3] -> [2, 3, 1]
                 answer[i - 1] = numbers[i];
             }
         }
