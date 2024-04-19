@@ -4,7 +4,6 @@ class Solution {
         // 문자열 my_string 내 문자열 a, e, i, o, u를 ""으로 치환 (""으로 치환 시 제거와 동일)
 
         // 정규표현식(Regular Expression)
-        // a|b: a 또는 b (or)
         // a|e|i|o|u: a, e, i, o, u (or)
 
         // "bus" -> "a|e|i|o|u"를 ""으로 치환 (제거) -> "bs"

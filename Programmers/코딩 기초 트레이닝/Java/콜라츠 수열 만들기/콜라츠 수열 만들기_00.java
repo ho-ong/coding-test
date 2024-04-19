@@ -21,6 +21,7 @@ class Solution {
         int[] answer = new int[str.length];
 
         for (int i = 0; i < answer.length; i++) {
+            // Integer.parseInt(): 정수로 변환
             // str 배열의 원소를 정수로 변환하여 넣기
             // ["10", "5", "16", "8", "4", "2", "1"] -> [10, 5, 16, 8, 4, 2, 1]
             answer[i] = Integer.parseInt(str[i]);
