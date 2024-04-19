@@ -2,7 +2,8 @@ import java.util.*;
 
 class Solution {
     public int solution(int[] array) {
-        // array 배열 오름차순 정렬 [1, 2, 7, 10, 11]
+        // array 배열 오름차순 정렬
+        // [1, 2, 7, 10, 11]
         Arrays.sort(array);
 
         // 시프트 연산: <<, >>, >>>

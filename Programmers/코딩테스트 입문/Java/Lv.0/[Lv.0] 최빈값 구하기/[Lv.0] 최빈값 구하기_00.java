@@ -2,7 +2,8 @@ import java.util.*;
 
 class Solution {
     public int solution(int[] array) {
-        // array 배열 오름차순 정렬 [1, 2, 3, 3, 3, 4]
+        // array 배열 오름차순 정렬
+        // [1, 2, 3, 3, 3, 4]
         Arrays.sort(array);
         int answer = 0;
         int max = array[array.length - 1]; // 최댓값 5

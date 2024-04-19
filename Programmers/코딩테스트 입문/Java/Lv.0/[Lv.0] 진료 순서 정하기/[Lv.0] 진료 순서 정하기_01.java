@@ -9,7 +9,8 @@ class Solution {
         // [3, 76, 24], 3 -> 3, 76, 24 -> [3, 76, 24]
         int[] sort = Arrays.copyOf(emergency, emergency.length);
 
-        // sort 배열 오름차순 정렬 [3, 24, 76]
+        // sort 배열 오름차순 정렬
+        // [3, 76, 24] -> [3, 24, 76]
         Arrays.sort(sort);
 
         // map 생성 (키, 값 저장)
