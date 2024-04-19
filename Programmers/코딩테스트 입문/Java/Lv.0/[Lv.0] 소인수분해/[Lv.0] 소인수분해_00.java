@@ -5,21 +5,32 @@ class Solution {
         // list 생성
         List<Integer> list = new ArrayList<>();
 
-        // 소인수분해 구하기 (2부터 시작)
+        // 소인수: 자연수의 약수 중 소수인 수
+
+        // 소인수 구하기
+        // 2 ≤ n ≤ 10,000 (2부터 시작)
         for (int i = 2; i <= n; i++) {
-            // 나머지가 0일 경우 n의 소인수
+            // n을 i로 나눴을 때, 나머지가 0일 경우
+            // 12 % 2 = 0
             if (n % i == 0) {
-                // 나머지가 0일 경우 반복
+                // n을 i로 나눴을 때, 나머지가 0일 경우
+                // 12 % 2 = 0
                 while (n % i == 0) {
-                    n /= i; // 나누기
+                    // 소수 구하기
+                    // 12 / 2 = 6, 6 / 2 = 3 -> 2
+                    // 3 / 3 = 1 -> 3
+                    n /= i;
                 }
 
-                list.add(i); // list에 추가
+                // list에 원소 추가
+                // [2, 3]
+                list.add(i);
             }
         }
 
-        // list의 원소를 int형으로 변환하여 배열 생성하기
-        int[] answer = list.stream().mapToInt(i -> i).toArray();
-        return answer;
+        // 리스트 -> 배열
+        // 리스트 스트림 생성 -> mapToInt -> 배열 변환
+        // mapToInt(): 스트림을 IntStream으로 변환 (Integer -> int)
+        return list.stream().mapToInt(Integer::intValue).toArray();
     }
 }

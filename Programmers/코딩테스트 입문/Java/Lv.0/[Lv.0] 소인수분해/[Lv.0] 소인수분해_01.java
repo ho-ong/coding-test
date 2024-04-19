@@ -4,20 +4,33 @@ class Solution {
     public int[] solution(int n) {
         // set 생성 (중복 제거)
         Set<Integer> set = new HashSet<>();
-        int div = 2; // 2부터 시작
+        int cnt = 2;
 
-        // 소인수분해 구하기 (2부터 시작)
+        // 소인수: 자연수의 약수 중 소수인 수
+
+        // 소인수 구하기
+        // 2 ≤ n ≤ 10,000 (2부터 시작)
         while (n >= 2) {
-            // 나머지가 0일 경우 n의 소인수
-            if (n % div == 0) {
-                n /= div; // 나누기
-                set.add(div); // set에 추가
+            // n을 cnt로 나눴을 때, 나머지가 0일 경우
+            // 12 % 2 = 0
+            if (n % cnt == 0) {
+                // 소수 구하기
+                // 12 / 2 = 6, 6 / 2 = 3 -> 2
+                // 3 / 3 = 1 -> 3
+                n /= cnt;
+
+                // set에 원소 추가
+                // [2, 3]
+                set.add(cnt);
             } else {
-                div++; // 증가
+                // cnt 증가
+                cnt++; // 3
             }
         }
 
-        // set의 원소를 int형으로 변환하여 배열 생성하기
+        // 세트 -> 배열
+        // 세트 스트림 생성 -> mapToInt -> 배열 변환
+        // mapToInt(): 스트림을 IntStream으로 변환 (Integer -> int)
         return set.stream().mapToInt(Integer::intValue).toArray();
     }
 }
