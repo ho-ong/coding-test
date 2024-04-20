@@ -3,9 +3,11 @@ class Solution {
     public int fac(int num) {
         // num이 1보다 클 경우
         if (num > 1) {
-            // 1 * 2, 1 * 2 * 3, ...
+            // num = 10 -> fac(10 - 1) * 10 = 10!
+            // 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10 = 10! = 3628800
             return fac(num - 1) * num;
         } else {
+            // num이 1일 경우 1
             return num;
         }
     }
@@ -15,9 +17,10 @@ class Solution {
 
         // 팩토리얼 구하기
         for (int i = 1; i <= 10; i++) {
-            // n이 fac의 원소보다 크거나 같을 경우
-            // 3628800 >= 1
+            // n이 i!보다 크거나 같을 경우
+            // 3628800 >= 10!
             if (n >= fac(i)) {
+                // 1, 2, ..., 9, 10
                 answer = i;
             } else {
                 break;
