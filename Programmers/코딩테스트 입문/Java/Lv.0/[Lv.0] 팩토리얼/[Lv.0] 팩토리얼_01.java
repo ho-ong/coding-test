@@ -13,9 +13,10 @@ class Solution {
     public int solution(int n) {
         int answer = 0;
 
-        // 최대 팩토리얼 10까지 반복하기
+        // 팩토리얼 구하기
         for (int i = 1; i <= 10; i++) {
-            // n이 fac보다 크거나 같을 경우
+            // n이 fac의 원소보다 크거나 같을 경우
+            // 3628800 >= 1
             if (n >= fac(i)) {
                 answer = i;
             } else {
