@@ -3,7 +3,7 @@
 <br>
 
 ## 문제설명
-문자열 배열 `strlist`가 매개변수로 주어집니다. `strlist` 각 원소의 길이를 담은 배열을 return 하도록 solution 함수를 완성해 주세요.
+문자열 배열 `strlist`가 매개변수로 주어집니다. `strlist` 각 원소의 길이를 담은 배열을 retrun 하도록 solution 함수를 완성해 주세요.
 
 <br>
 
