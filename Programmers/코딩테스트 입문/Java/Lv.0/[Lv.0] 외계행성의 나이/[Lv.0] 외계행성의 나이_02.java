@@ -2,7 +2,7 @@ import java.util.stream.Collectors;
 
 class Solution {
     public String solution(int age) {
-        // 스트림 변환 -> mapToObj -> collect
+        // 스트림 변환 -> mapToObj -> 문자열 병합
         // String.valueOf(): 문자열로 변환
         // chars(): 문자열의 문자들을 스트림으로 변환
         // mapToObj(): 기본형 스트림을 스트림으로 변환 (IntStream, ... -> Stream<T>)
