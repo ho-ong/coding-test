@@ -3,7 +3,7 @@ import java.util.stream.Collectors;
 
 class Solution {
     public String solution(String rsp) {
-        // 배열 스트림 생성 -> map -> 문자열 병합
+        // 배열 스트림 생성 -> 원소 매핑 -> 문자열 병합
         // map(): 스트림 내 기존 원소를 새로운 원소로 매핑하여 반환
         // collect(): 스트림 내 원소를 변형 및 처리, List, Set 등의 자료형으로 변환
         // collect(Collectors.joining()): 스트림 내 문자열 병합

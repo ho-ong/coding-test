@@ -1,6 +1,6 @@
 class Solution {
     public int solution(int n, String control) {
-        // 스트림 변환 -> reduce
+        // 스트림 변환 -> 원소 연산
         // chars(): 문자열의 문자들을 스트림으로 변환
         // reduce(): 스트림 내 원소들을 연산하여 하나의 값 반환
 

@@ -2,7 +2,7 @@ import java.util.stream.IntStream;
 
 class Solution {
     public int[] solution(int[] numbers, int num1, int num2) {
-        // 기본형 스트림 생성 -> map -> 배열 변환
+        // 기본형 스트림 생성 -> 원소 매핑 -> 배열 변환
         // 기본형 스트림: IntStream, LongStream, DoubleStream (숫자 스트림을 효율적으로 처리)
         // rangeClosed(start, end): start(포함)부터 end(포함)까지 범위 내 정수를 순서대로 생성
         // map(): 스트림 내 기존 원소를 새로운 원소로 매핑하여 반환
