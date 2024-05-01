@@ -6,7 +6,8 @@ public class Solution {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        // print() 함수 사용 시 \n을 통해 줄 바꿈 가능
+        // \n: 줄 바꾸기
+        // \t: 간격 띄우기
         System.out.print("a = " + a + "\nb = " + b);
     }
 }
