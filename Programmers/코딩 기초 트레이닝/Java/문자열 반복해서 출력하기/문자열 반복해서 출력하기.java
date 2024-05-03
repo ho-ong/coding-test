@@ -8,7 +8,6 @@ public class Solution {
 
         // repeat(): 문자열 반복
         // 문자열 str을 n번 반복
-        // string 5 -> stringstringstringstringstring
         System.out.println(str.repeat(n));
     }
 }

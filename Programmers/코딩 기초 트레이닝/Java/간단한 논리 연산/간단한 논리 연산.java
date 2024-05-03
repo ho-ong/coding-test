@@ -3,8 +3,7 @@ class Solution {
         // 논리연산자: &&(and), ||(or), !(not)
         // ∧ = &&(and), ∨ = ||(or)
 
-        // (x1 ∨ x2) ∧ (x3 ∨ x4) ≡ (F ∨ T) ∧ (T ∨ T) ≡ T ∧ T ≡ T
-        // (false || true) && (true || true) = true && true = true
+        // (x1 ∨ x2) ∧ (x3 ∨ x4) -> (x1 || x2) && (x3 || x4)
         boolean answer = (x1 || x2) && (x3 || x4);
         return answer;
     }

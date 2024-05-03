@@ -5,11 +5,9 @@ class Solution {
         int[] answer = new int[num_list.length + 1];
 
         // num_list 배열의 마지막 원소
-        // [2, 1, 6] -> 6
         int a = num_list[num_list.length - 1];
 
         // num_list 배열의 그전 원소
-        // [2, 1, 6] -> 1
         int b = num_list[num_list.length - 2];
 
         for (int i = 0; i < num_list.length; i++) {
@@ -20,11 +18,11 @@ class Solution {
         // answer 배열의 마지막 원소
         // num_list 배열의 마지막 원소가 클 경우 a - b, 아닐 경우 a * 2
         if (a > b) {
-            answer[num_list.length] = a - b; // 6 - 1 = 5
+            answer[num_list.length] = a - b;
         } else {
-            answer[num_list.length] = a * 2; // 6 * 2 = 12
+            answer[num_list.length] = a * 2;
         }
 
-        return answer; // [2, 1, 6, 5]
+        return answer;
     }
 }

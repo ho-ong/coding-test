@@ -4,7 +4,6 @@ class Solution {
 
         for (int i = 0; i < arr.length; i++) {
             // arr 배열의 원소를 합치기
-            // ["a", "b", "c"] -> "abc"
             answer += arr[i];
         }
 
