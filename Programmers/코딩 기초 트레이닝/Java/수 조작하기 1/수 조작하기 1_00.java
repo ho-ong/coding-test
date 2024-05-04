@@ -4,7 +4,6 @@ class Solution {
 
         // split(): 문자열 분리
         // 문자열 control을 "" 기준으로 분리하고, str 배열에 순서대로 저장
-        // "wsdawsdassw" -> ["w", "s", "d", "a", "w", "s", "d", "a", "s", "s", "w"]
         String[] str = control.split("");
 
         for (int i = 0; i < str.length; i++) {
@@ -23,8 +22,6 @@ class Solution {
             }
         }
 
-        // "wsdawsdassw" -> 1, -1, 10, -10, 1, -1, 10, -10, -1, -1, 1
-        // 0 → 1 → 0 → 10 → 0 → 1 → 0 → 10 → 0 → -1 → -2 → -1
-        return answer; // -1
+        return answer;
     }
 }

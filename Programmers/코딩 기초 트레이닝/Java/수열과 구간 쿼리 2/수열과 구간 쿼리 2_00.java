@@ -11,10 +11,10 @@ class Solution {
         // Arrays.fill(answer, Integer.MAX_VALUE) 하는 이유?
         // 최솟값을 찾기 위한 과정
 
-        // [s, e, k] -> [0, 4, 2]
-        // s = queries[j][0] -> 0
-        // e = queries[j][1] -> 4
-        // k = queries[j][2] -> 2
+        // [s, e, k]
+        // s = queries[j][0]
+        // e = queries[j][1]
+        // k = queries[j][2]
 
         for (int j = 0; j < queries.length; j++) {
             // s ≤ i ≤ e -> 0 ≤ i ≤ 4
@@ -24,7 +24,6 @@ class Solution {
                     // 가장 작은 arr[i] 찾기
                     // Math.min(): 최솟값 반환
                     // answer[j]와 arr[i] 중 최솟값 반환
-                    // [0, 1, 2, 4, 3] -> 0 ≤ 2 < i ≤ 4 -> 3
                     answer[j] = Math.min(answer[j], arr[i]);
                 }
             }

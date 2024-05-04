@@ -4,7 +4,6 @@ class Solution {
 
         // toCharArray(): 문자열을 char형 문자로 분리하고, char[] 배열에 순서대로 저장
         // 문자열 control을 char형 문자로 분리하고, char[] 배열에 순서대로 저장 -> 문자 c로 변환
-        // "wsdawsdassw" -> ['w', 's', 'd', 'a', 'w', 's', 'd', 'a', 's', 's', 'w'] -> 'w'
         for (char c : control.toCharArray()) {
             switch (c) {
                 // 문자 c가 'w'일 경우 +1
@@ -28,8 +27,6 @@ class Solution {
             }
         }
 
-        // "wsdawsdassw" -> 1, -1, 10, -10, 1, -1, 10, -10, -1, -1, 1
-        // 0 → 1 → 0 → 10 → 0 → 1 → 0 → 10 → 0 → -1 → -2 → -1
-        return answer; // -1
+        return answer;
     }
 }

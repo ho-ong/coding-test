@@ -14,18 +14,14 @@ class Solution {
             // num_list 배열의 원소를 2로 나눴을 때, 나머지가 0일 경우
             if (num_list[i] % 2 == 0) {
                 // num_list 배열의 원소 중 짝수만 합치기
-                // [3, 4, 5, 2, 1] -> 4, 2 -> "42"
                 even += String.valueOf(num_list[i]);
             } else {
                 // num_list 배열의 원소 중 홀수만 합치기
-                // [3, 4, 5, 2, 1] -> 3, 5, 1 -> "351"
                 odd += String.valueOf(num_list[i]);
             }
         }
 
         // 홀수와 짝수를 더하기
-        // "351", "42" -> 351, 42
-        // 351 + 42 = 393
         return Integer.parseInt(even) + Integer.parseInt(odd);
     }
 }
