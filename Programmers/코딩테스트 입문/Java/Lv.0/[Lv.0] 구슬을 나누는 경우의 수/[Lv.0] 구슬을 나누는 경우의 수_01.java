@@ -34,7 +34,6 @@ class Solution {
 
         // balls = n, share = m
         // 경우의 수 = n! / ((n - m)! * m!)
-        // 3! / ((3 - 2)! * 2!) = 6 / (1 * 2) = 3
         return fac(balls).divide((fac(balls - share).multiply(fac(share))));
     }
 }

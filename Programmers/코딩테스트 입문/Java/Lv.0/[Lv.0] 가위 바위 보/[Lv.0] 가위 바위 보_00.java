@@ -4,7 +4,6 @@ class Solution {
 
         // split(): 문자열 분리
         // 문자열 rsp를 "" 기준으로 분리하고, str 배열에 순서대로 저장
-        // "2" -> ["2"]
         String[] str = rsp.split("");
 
         for (int i = 0; i < rsp.length(); i++) {
@@ -20,7 +19,6 @@ class Solution {
             }
         }
 
-        // "2" -> "0"
         return answer;
     }
 }

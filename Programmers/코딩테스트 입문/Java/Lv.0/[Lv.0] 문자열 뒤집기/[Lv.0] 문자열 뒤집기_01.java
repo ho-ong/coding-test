@@ -6,7 +6,6 @@ class Solution {
         // reverse(): 반전 반환
 
         // 문자열 my_string을 반전
-        // "jaron" -> "noraj"
         return new StringBuilder(my_string).reverse().toString();
     }
 }

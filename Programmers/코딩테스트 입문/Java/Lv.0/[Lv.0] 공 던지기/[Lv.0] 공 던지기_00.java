@@ -4,7 +4,7 @@ class Solution {
 
         for (int i = 1; i < k; i++) {
             // answer 2씩 증가
-            answer += 2; // 3
+            answer += 2;
 
             // answer가 클 경우
             if (answer > numbers.length) {

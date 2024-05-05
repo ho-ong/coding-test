@@ -16,11 +16,9 @@ class Solution {
 
         // toCharArray(): 문자열을 char형 문자로 분리하고, char[] 배열에 순서대로 저장
         // 문자열 my_string을 char형 문자로 분리하고, char[] 배열에 순서대로 저장 -> 문자 c로 변환
-        // "hello" -> ['h', 'e', 'l', 'l', 'o'] -> 'h'
         for (char c : my_string.toCharArray()) {
             // append(): 문자열 추가
             // 문자 c를 n번 반복하여 sb에 추가하기
-            // ['h', 'e', 'l', 'l', 'o'] 3 -> "hhh" -> "hhheeellllllooo"
             sb.append((c + "").repeat(n));
         }
 
