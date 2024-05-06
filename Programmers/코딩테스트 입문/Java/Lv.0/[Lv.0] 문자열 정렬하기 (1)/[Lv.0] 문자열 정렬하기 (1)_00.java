@@ -8,24 +8,20 @@ class Solution {
         // 정규표현식(Regular Expression)
         // [a-z]: a부터 z까지
 
-        // "hi12392" -> "[a-z]"를 ""으로 치환 (제거) -> "12392"
         String s = my_string.replaceAll("[a-z]", "");
 
         // split(): 문자열 분리
         // 문자열 s를 "" 기준으로 분리하고, str 배열에 순서대로 저장
-        // "12392" -> ["1", "2", "3", "9", "2"]
         String[] str = s.split("");
         int[] answer = new int[str.length];
 
         for (int i = 0; i < str.length; i++) {
             // Integer.parseInt(): 정수로 변환
             // str 배열의 원소를 정수로 변환하여 넣기
-            // ["1", "2", "3", "9", "2"] -> [1, 2, 3, 9, 2]
             answer[i] = Integer.parseInt(str[i]);
         }
 
         // answer 배열 오름차순 정렬
-        // [1, 2, 3, 9, 2] -> [1, 2, 2, 3, 9]
         Arrays.sort(answer);
         return answer;
     }

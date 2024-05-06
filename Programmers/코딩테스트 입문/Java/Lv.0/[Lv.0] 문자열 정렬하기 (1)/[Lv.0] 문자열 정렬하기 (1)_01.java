@@ -10,15 +10,11 @@ class Solution {
         // 정규표현식(Regular Expression)
         // [a-z]: a부터 z까지
 
-        // "hi12392" -> "[a-z]"를 ""으로 치환 (제거) -> "12392"
-
         // split(): 문자열 분리
         // 문자열 my_string을 "" 기준으로 분리하고, 배열에 순서대로 저장
-        // "12392" -> ["1", "2", "3", "9", "2"]
 
         // sorted(): 오름차순 정렬
         // mapToInt(): 스트림을 IntStream으로 변환 (Integer -> int)
-        // ["1", "2", "3", "9", "2"] -> ["1", "2", "2", "3", "9"] -> [1, 2, 2, 3, 9]
         return Arrays.stream(my_string.replaceAll("[a-z]", "").split("")).sorted().mapToInt(Integer::parseInt).toArray();
     }
 }

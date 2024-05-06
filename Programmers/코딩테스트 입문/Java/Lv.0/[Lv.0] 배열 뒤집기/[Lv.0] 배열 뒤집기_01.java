@@ -17,7 +17,6 @@ class Solution {
         // int를 Integer 클래스로 변환하여 List<Integer>에 넣는다. (int -> Integer)
 
         // reverse(): 반전 반환
-        // [1, 2, 3, 4, 5] -> [5, 4, 3, 2, 1]
         Collections.reverse(list);
 
         // 리스트 -> 배열

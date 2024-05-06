@@ -6,7 +6,6 @@ class Solution {
         // map(): 스트림 내 기존 원소를 새로운 원소로 매핑하여 반환
 
         // numbers 배열의 원소에 2를 곱하기
-        // [1, 2, 3, 4, 5] -> [2, 4, 6, 8, 10]
         return Arrays.stream(numbers).map(i -> i * 2).toArray();
     }
 }
