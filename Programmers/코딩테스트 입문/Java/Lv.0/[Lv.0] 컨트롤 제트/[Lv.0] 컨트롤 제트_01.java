@@ -9,7 +9,6 @@ class Solution {
 
         // split(): 문자열 분리
         // 문자열 s를 " " 기준으로 분리하고, 문자열 ss에 순서대로 저장
-        // "1 2 Z 3" -> "1", "2", "Z", "3"
         for (String ss : s.split(" ")) {
             // 문자열 ss가 "Z"일 경우
             if (ss.equals("Z")) {

@@ -13,7 +13,6 @@ class Solution {
             answer = (int) (price * 0.9);
         // 10만 원 이상 살 경우 5% 할인 -> 할인율 0.95
         } else if (price >= 100000) {
-            // 150000 * 0.95 = 142500
             answer = (int) (price * 0.95);
         // 기본
         } else {

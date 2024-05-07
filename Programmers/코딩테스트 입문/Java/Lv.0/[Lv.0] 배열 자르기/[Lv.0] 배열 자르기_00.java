@@ -7,7 +7,6 @@ class Solution {
 
         for (int i = num1; i <= num2; i++) {
             // i = 1 -> answer[0] = numbers[1]
-            // numbers[1], numbers[2], numbers[3] -> 2, 3, 4 -> [2, 3, 4]
             answer[i - num1] = numbers[i];
         }
 

@@ -8,10 +8,7 @@ class Solution {
         // 3628800 >= 10!
         while (n >= fac) {
             // answer 증가
-            // 1, 2, ..., 9, 10
             answer++;
-
-            // 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10 = 10! = 3628800
             fac *= answer;
         }
 

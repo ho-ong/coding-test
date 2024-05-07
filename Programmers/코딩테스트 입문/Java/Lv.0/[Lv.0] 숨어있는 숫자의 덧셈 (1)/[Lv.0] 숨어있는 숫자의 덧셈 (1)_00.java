@@ -7,20 +7,15 @@ class Solution {
 
         // 정규표현식(Regular Expression)
         // [a-z|A-Z]: a부터 z까지 또는 A부터 Z까지 (or)
-
-        // "aAb1B2cC34oOp" -> "[a-z|A-Z]"를 ""으로 치환 (제거) -> "1234"
         String s = my_string.replaceAll("[a-z|A-Z]", "");
 
         // split(): 문자열 분리
         // 문자열 s를 "" 기준으로 분리하고, str 배열에 순서대로 저장
-        // "1234" -> ["1", "2", "3", "4"]
         String[] str = s.split("");
 
         for (int i = 0; i < str.length; i++) {
             // Integer.parseInt(): 정수로 변환
             // str 배열의 원소를 정수로 변환하여 더하기
-            // ["1", "2", "3", "4"] -> [1, 2, 3, 4]
-            // 1 + 2 + 3 + 4 = 10
             answer += Integer.valueOf(str[i]);
         }
 

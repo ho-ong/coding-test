@@ -11,11 +11,10 @@ class Solution {
         // map(): 스트림 내 기존 원소를 새로운 원소로 매핑하여 반환
         // sum(): 합계 반환
 
-        // 0(포함)부터 included 배열의 길이(불포함)까지 범위 내 정수를 순서대로 생성 (0, 1, 2, 3, 4)
+        // 0(포함)부터 included 배열의 길이(불포함)까지 범위 내 정수를 순서대로 생성
         // included 배열의 원소가 true일 경우
         // 등차수열의 합계를 구하기
-        // 공차가 d이므로 d에 i를 곱하기 (3 + 0, 3 + 4, 3 + 8, ...)
-        // 3 + 15 + 19 = 37
+        // 공차가 d이므로 d에 i를 곱하기
         return IntStream.range(0, included.length).map(i -> included[i] ? a + (d * i) : 0).sum();
     }
 }

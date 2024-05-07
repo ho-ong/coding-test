@@ -11,10 +11,9 @@ class Solution {
 
         // i를 2로 나눴을 때, 나머지가 0일 경우 짝수, 아닐 경우 홀수
         // 짝수의 개수와 홀수의 개수를 구하고, 배열로 변환
-        // [1, 2, 3, 4, 5] -> 짝수 2, 4, 홀수 1, 3, 5 -> [2, 3]
         return IntStream.of(
-            (int) Arrays.stream(num_list).filter(i -> i % 2 == 0).count(), // 짝수의 개수 2
-            (int) Arrays.stream(num_list).filter(i -> i % 2 == 1).count() // 홀수의 개수 3
-        ).toArray(); // [2, 3]
+            (int) Arrays.stream(num_list).filter(i -> i % 2 == 0).count(), // 짝수의 개수
+            (int) Arrays.stream(num_list).filter(i -> i % 2 == 1).count() // 홀수의 개수
+        ).toArray();
     }
 }

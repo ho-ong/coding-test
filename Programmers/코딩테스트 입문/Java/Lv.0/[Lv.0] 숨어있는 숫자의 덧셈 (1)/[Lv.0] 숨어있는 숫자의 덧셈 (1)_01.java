@@ -8,17 +8,13 @@ class Solution {
         // 정규표현식(Regular Expression)
         // ^0: 0부터 시작 (문자열의 시작을 의미, [] 안에 있을 경우 0이 아니라는 부정의 의미)
         // [^0-9]: 0부터 9까지 제외
-
-        // "aAb1B2cC34oOp" -> "[^0-9]"를 ""으로 치환 (제거) -> "1234"
         String s = my_string.replaceAll("[^0-9]", "");
 
         // toCharArray(): 문자열을 char형 문자로 분리하고, char[] 배열에 순서대로 저장
         // 문자열 s를 char형 문자로 분리하고, char[] 배열에 순서대로 저장 -> 문자 c로 변환
-        // "1234" -> ['1', '2', '3', '4'] -> '1'
         for (char c : s.toCharArray()) {
             // Character.getNumericValue(): 숫자 형태의 char형 문자를 int형 정수로 변환 (char -> int)
             // 문자 c를 정수로 변환하여 더하기
-            // '1', '2', '3', '4' -> 1 + 2 + 3 + 4 = 10
             answer += Character.getNumericValue(c);
         }
 

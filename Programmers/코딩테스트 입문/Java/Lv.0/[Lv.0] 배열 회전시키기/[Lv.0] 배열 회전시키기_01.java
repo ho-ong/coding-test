@@ -19,20 +19,16 @@ class Solution {
         // direction이 "right"일 경우
         if (direction.equals("right")) {
             // list에 원소 추가
-            // [1, 2, 3] -> [3, 1, 2, 3]
             list.add(0, list.get(list.size() - 1));
 
             // list의 원소 제거
-            // [3, 1, 2, 3] -> [3, 1, 2]
             list.remove(list.size() - 1);
         // direction이 "left"일 경우
         } else {
             // list에 원소 추가
-            // [1, 2, 3] -> [1, 2, 3, 1]
             list.add(list.size(), list.get(0));
 
             // list의 원소 제거
-            // [1, 2, 3, 1] -> [2, 3, 1]
             list.remove(0);
         }
 

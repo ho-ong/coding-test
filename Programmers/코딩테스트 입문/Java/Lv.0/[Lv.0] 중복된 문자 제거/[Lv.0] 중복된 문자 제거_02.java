@@ -10,10 +10,8 @@ class Solution {
 
         // split(): 문자열 분리
         // 문자열 my_string을 "" 기준으로 분리하고, 배열에 순서대로 저장
-        // "people" -> ["p", "e", "o", "p", "l", "e"]
 
         // 중복을 제거하여 합치기
-        // ["p", "e", "o", "l"] -> "peol"
         return Arrays.stream(my_string.split("")).distinct().collect(Collectors.joining());
     }
 }

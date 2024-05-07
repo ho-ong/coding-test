@@ -7,7 +7,6 @@ class Solution {
 
         // 정규표현식(Regular Expression)
         // [a-z]: a부터 z까지
-
         String s = my_string.replaceAll("[a-z]", "");
 
         // split(): 문자열 분리

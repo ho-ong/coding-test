@@ -3,7 +3,6 @@ import java.util.*;
 class Solution {
     public int solution(int[] sides) {
         // sides 배열 오름차순 정렬
-        // [1, 2, 3]
         Arrays.sort(sides);
 
         // 두 변의 길이의 합 > 가장 긴 변의 길이

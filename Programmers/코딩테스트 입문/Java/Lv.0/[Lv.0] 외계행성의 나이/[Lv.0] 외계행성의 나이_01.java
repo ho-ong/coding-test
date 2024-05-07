@@ -20,9 +20,8 @@ class Solution {
 
             // insert(index, string): 지정한 인덱스에 문자열 삽입
             // 인덱스 0에 문자 'd', 'c'를 삽입하기
-            // 3, 2 -> 'd', 'c' -> "cd"
-            sb.insert(0, (char) (age % 10 + (int) 'a')); // 23 % 10 = 3 -> 'd'
-            age /= 10; // 20 / 10 = 2 -> 'c'
+            sb.insert(0, (char) (age % 10 + (int) 'a'));
+            age /= 10;
 
             // age % 10, age / 10 하는 이유?
             // 정수를 1의 자릿수로 분리하기 위한 과정

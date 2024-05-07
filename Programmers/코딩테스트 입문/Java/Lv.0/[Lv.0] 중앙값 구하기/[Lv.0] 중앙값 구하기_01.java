@@ -3,7 +3,6 @@ import java.util.*;
 class Solution {
     public int solution(int[] array) {
         // array 배열 오름차순 정렬
-        // [1, 2, 7, 10, 11]
         Arrays.sort(array);
 
         // 시프트 연산: <<, >>, >>>
@@ -14,8 +13,6 @@ class Solution {
         // 10진수 -8 -> 2진수 11111000 (앞부분 1)
 
         // 중앙값 = 배열의 길이의 각 비트를 1만큼 우측으로 이동시킨 값
-        // 5 >> 1 -> 00000101 >> 1 -> 00000010 = 2
-        // array[2] = 7
         return array[array.length >> 1];
     }
 }
