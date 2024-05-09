@@ -6,7 +6,6 @@ class Solution {
         List<Integer> list = new ArrayList<>();
 
         // list에 원소 추가
-        // [10]
         list.add(n);
 
         // n이 1이 아닐 경우
@@ -16,7 +15,6 @@ class Solution {
             n = n % 2 == 0 ? n / 2 : n * 3 + 1;
 
             // list에 원소 추가
-            // [10] -> [10, 5, 16, 8, 4, 2, 1]
             list.add(n);
         }
 
