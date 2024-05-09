@@ -1,8 +1,7 @@
 class Solution {
     public int solution(int n) {
-        int answer = 0;
-
         // 합성수: 약수의 개수가 세 개 이상인 수
+        int answer = 0;
 
         for (int i = 1; i <= n; i++) {
             int cnt = 0;

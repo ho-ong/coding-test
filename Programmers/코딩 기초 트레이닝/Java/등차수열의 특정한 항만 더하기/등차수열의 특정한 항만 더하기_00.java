@@ -8,8 +8,7 @@ class Solution {
             // included 배열의 원소가 true일 경우
             if (included[i]) {
                 // 등차수열을 더하기
-                // 공차가 d이므로 d에 i를 곱하기 (3 + 0, 3 + 4, 3 + 8, ...)
-                // 3 + 15 + 19 = 37
+                // 공차가 d이므로 d에 i를 곱하기
                 answer += a + (d * i);
             }
         }

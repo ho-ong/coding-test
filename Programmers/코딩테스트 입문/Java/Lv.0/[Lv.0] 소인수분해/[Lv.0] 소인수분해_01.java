@@ -2,11 +2,11 @@ import java.util.*;
 
 class Solution {
     public int[] solution(int n) {
+        // 소인수: 자연수의 약수 중 소수인 수
+
         // set 생성 (중복 제거)
         Set<Integer> set = new HashSet<>();
         int cnt = 2;
-
-        // 소인수: 자연수의 약수 중 소수인 수
 
         // 소인수 구하기
         // 2 ≤ n ≤ 10,000 (2부터 시작)

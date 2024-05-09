@@ -2,10 +2,10 @@ import java.util.*;
 
 class Solution {
     public int[] solution(int n) {
+        // 소인수: 자연수의 약수 중 소수인 수
+
         // list 생성
         List<Integer> list = new ArrayList<>();
-
-        // 소인수: 자연수의 약수 중 소수인 수
 
         // 소인수 구하기
         // 2 ≤ n ≤ 10,000 (2부터 시작)

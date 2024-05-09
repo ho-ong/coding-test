@@ -3,7 +3,6 @@ import java.util.*;
 class Solution {
     public int[] solution(String my_string) {
         // 배열 스트림 생성 -> 오름차순 정렬 -> mapToInt -> 배열 변환
-
         // replaceAll(regex, replacement): 문자열을 다른 문자열로 치환 (첫 번째 매개변수는 정규식)
         // 문자열 my_string 내 문자열 a부터 z까지를 ""으로 치환 (""으로 치환 시 제거와 동일)
 
