@@ -1,7 +1,6 @@
 class Solution {
     public int[] solution(int n) {
         // 정수를 문자열로 변환
-        // "10 "
         String s = n + " ";
 
         // n이 1이 아닐 경우
