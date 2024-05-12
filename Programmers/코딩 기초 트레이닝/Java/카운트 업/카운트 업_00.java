@@ -8,7 +8,6 @@ class Solution {
         for (int i = 0; i < answer.length; i++) {
             // start_num 증가
             // i = 0 -> answer[0] = 3, ..., answer[7] = 10
-            // 3, 4, 5, 6, 7, 8, 9, 10 -> [3, 4, 5, 6, 7, 8, 9, 10]
             answer[i] = start_num++;
         }
 
