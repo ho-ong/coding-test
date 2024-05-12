@@ -5,14 +5,12 @@ class Solution {
         // order가 0이 아닐 경우
         while (order != 0) {
             // order를 10으로 나눴을 때, 나머지가 3, 6, 9일 경우
-            // 3 % 10 = 3
             if (order % 10 == 3 || order % 10 == 6 || order % 10 == 9) {
                 // answer 증가
-                answer++; // 1
+                answer++;
             }
 
             // order를 10으로 나누기
-            // 3 / 10 = 0
             order /= 10;
         }
 
