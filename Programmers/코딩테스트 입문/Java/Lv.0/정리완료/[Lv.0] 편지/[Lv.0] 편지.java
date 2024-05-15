@@ -1,6 +1,6 @@
 class Solution {
     public int solution(String message) {
-        // 문자열 message의 길이에 2를 곱하기
+        // 편지지의 최소 가로길이 = 문자열의 길이 * 2
         return message.length() * 2;
     }
 }
