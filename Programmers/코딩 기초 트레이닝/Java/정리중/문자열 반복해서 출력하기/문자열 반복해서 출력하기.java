@@ -7,7 +7,6 @@ public class Solution {
         int n = sc.nextInt();
 
         // repeat(): 문자열 반복
-        // 문자열 str을 n번 반복
         System.out.println(str.repeat(n));
     }
 }

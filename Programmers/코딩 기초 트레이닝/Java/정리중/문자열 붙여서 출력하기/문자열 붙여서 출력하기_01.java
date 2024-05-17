@@ -6,8 +6,12 @@ public class Solution {
         String a = sc.next();
         String b = sc.next();
 
+        // 방법 1
         // concat(): 문자열 병합
-        // 문자열 a와 문자열 b를 병합
         System.out.println(a.concat(b));
+
+        // 방법 2
+        // join(): 문자열 병합
+        // System.out.println(String.join("", a, b));
     }
 }

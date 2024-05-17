@@ -6,7 +6,6 @@ public class Solution {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        // \t: 탭
         // \n: 줄 바꿈
         System.out.print("a = " + a + "\nb = " + b);
     }
