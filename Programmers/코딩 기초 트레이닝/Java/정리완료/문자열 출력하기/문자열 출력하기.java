@@ -7,7 +7,7 @@ public class Solution {
 
         // print(): 출력 (줄 바꿈 X)
         // println(): 출력 (줄 바꿈 O)
-        // printf("출력서식", 출력내용): 서식 지정 출력 (줄 바꿈 X)
+        // printf("출력서식", 출력내용): 출력 (서식 지정, 줄 바꿈 X)
         System.out.println(a);
     }
 }
