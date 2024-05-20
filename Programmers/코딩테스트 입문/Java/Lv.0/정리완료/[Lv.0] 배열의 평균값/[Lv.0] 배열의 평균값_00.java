@@ -3,7 +3,7 @@ class Solution {
         double answer = 0;
 
         for (int i = 0; i < numbers.length; i++) {
-            // numbers 배열의 원소를 더하기
+            // 배열의 원소의 합
             answer += numbers[i];
         }
 
