@@ -1,9 +1,8 @@
 class Solution {
     public double solution(int[] numbers) {
-        double answer = 0;
+        double answer = 0; // 배열의 원소의 합
 
         for (int i = 0; i < numbers.length; i++) {
-            // 배열의 원소의 합
             answer += numbers[i];
         }
 
