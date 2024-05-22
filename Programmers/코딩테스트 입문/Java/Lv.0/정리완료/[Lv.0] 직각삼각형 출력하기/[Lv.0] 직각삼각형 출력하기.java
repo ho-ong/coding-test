@@ -7,7 +7,7 @@ public class Solution {
 
         // 높이와 너비가 n인 직각 이등변 삼각형
         for (int i = 1; i <= n; i++) {
-            // *을 i번(n까지) 반복하여 출력하기 (줄 바꿈)
+            // repeat(): 문자열 반복
             System.out.println("*".repeat(i));
         }
     }
