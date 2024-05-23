@@ -3,7 +3,7 @@ class Solution {
         double answer = 0; // 배열의 원소의 합
 
         for (int i = 0; i < numbers.length; i++) {
-            answer += numbers[i];
+            answer += numbers[i]; // 합
         }
 
         // 평균값 = 배열의 원소의 합 / 배열의 원소의 개수
