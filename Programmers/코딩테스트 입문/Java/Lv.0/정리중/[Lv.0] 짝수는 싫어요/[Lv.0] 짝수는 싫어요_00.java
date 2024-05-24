@@ -5,7 +5,7 @@ class Solution {
         // 15 / 2 = 7이므로 8이 나오려면 n에 + 1을 해야 한다.
         int[] answer = new int[(n + 1) / 2];
 
-        // 홀수는 1부터 시작, 2씩 증가
+        // 홀수 => 1부터 시작, 2씩 증가
         for (int i = 1; i <= n; i += 2) {
             // i = 1 -> answer[0] = 1
             answer[i / 2] = i;
