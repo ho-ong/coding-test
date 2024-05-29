@@ -4,7 +4,7 @@ import java.util.stream.IntStream;
 class Solution {
     public int[] solution(int[] num_list) {
         // 기본형 스트림 생성 -> 원소 추출 -> 개수 계산 -> 배열 변환
-        // of(): 가변 매개변수를 전달받아 스트림 생성
+        // of(): 지정된 값의 정수를 순서대로 생성
         // filter(): 조건에 해당하는 원소를 추출하여 반환
         // count(): 개수 반환
         // toArray(): 배열 변환
