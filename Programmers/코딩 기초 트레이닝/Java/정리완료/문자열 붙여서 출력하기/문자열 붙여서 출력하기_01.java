@@ -8,5 +8,8 @@ public class Solution {
 
         // concat(): 문자열 병합
         System.out.println(a.concat(b));
+
+        // join(): 문자열 병합
+        // System.out.println(String.join("", a, b));
     }
 }
