@@ -3,9 +3,9 @@ class Solution {
         int answer = 0; // 머쓱이보다 키 큰 사람 수
 
         for (int i = 0; i < array.length; i++) {
-            // 머쓱이의 키보다 클 경우
+            // 머쓱이의 키보다 클 경우 증가
             if (array[i] > height) {
-                answer++; // 증가
+                answer++;
             }
         }
 

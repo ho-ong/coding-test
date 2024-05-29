@@ -10,8 +10,8 @@ class Solution {
         // count(): 개수 반환
         // toArray(): 배열 변환
         return IntStream.of(
-            (int) Arrays.stream(num_list).filter(i -> i % 2 == 0).count(), // 짝수 개수
-            (int) Arrays.stream(num_list).filter(i -> i % 2 == 1).count() // 홀수 개수
+            (int) Arrays.stream(num_list).filter(i -> i % 2 == 0).count(), // 짝수
+            (int) Arrays.stream(num_list).filter(i -> i % 2 == 1).count() // 홀수
         ).toArray();
     }
 }
