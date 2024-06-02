@@ -6,14 +6,13 @@ public class Solution {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        // printf("출력서식", 출력내용): 서식 지정 출력 (줄 바꿈 X)
-        // 출력서식과 출력내용의 순서 중요
+        // printf("출력서식", 출력내용): 출력 (서식 지정, 줄 바꿈 X)
         System.out.printf("%d + %d = %d", a, b, a + b);
 
         // 출력서식
-        // %d: 정수
-        // %o: 8진수 정수
-        // %x: 16진수 정수
+        // %d: 정수 (10진수)
+        // %o: 정수 (8진수)
+        // %x: 정수 (16진수)
         // %f: 실수
         // %e: 지수
         // %c: 문자
