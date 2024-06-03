@@ -6,10 +6,6 @@ class Solution {
         // String.valueOf(): 문자열 변환
         String s = String.valueOf(age);
 
-        // Integer.parseInt()와 Integer.valueOf()의 차이?
-        // Integer.parseInt(): int 반환
-        // Integer.valueOf(): Integer 클래스의 객체 반환 (parseInt() 호출)
-
         // split(): 문자열 분리
         String[] str = s.split("");
 
