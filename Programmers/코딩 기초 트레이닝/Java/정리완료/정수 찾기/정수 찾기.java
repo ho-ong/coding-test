@@ -3,7 +3,7 @@ class Solution {
         int answer = 0;
 
         for (int i = 0; i < num_list.length; i++) {
-            // 배열의 원소와 n이 같을 경우 1
+            // 배열의 원소와 n이 같을 경우 1, 아닐 경우 0
             if (num_list[i] == n) {
                 answer = 1;
             }
