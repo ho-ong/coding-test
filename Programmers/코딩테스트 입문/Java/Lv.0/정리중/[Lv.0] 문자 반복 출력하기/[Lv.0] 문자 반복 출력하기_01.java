@@ -9,12 +9,11 @@ class Solution {
         // 사용 후 String 변환 => String.valueOf(), toString()
         StringBuilder sb = new StringBuilder();
 
-        for (int i = 0; i < my_string.length(); i++) {
-            for (int j = 0; j < n; j++) {
-                // charAt(): 문자열 내 해당 인덱스에 위치한 문자열을 선택하여 char형 문자로 변환
-                // append(): 문자열 추가
-                sb.append(my_string.charAt(i));
-            }
+        // toCharArray(): 문자열을 char형 문자로 분리하고, char[] 배열에 순서대로 저장
+        for (char c : my_string.toCharArray()) {
+            // append(): 문자열 추가
+            // repeat(): 문자열 반복
+            sb.append((c + "").repeat(n));
         }
 
         return sb.toString();
