@@ -1,6 +1,6 @@
 class Solution {
     public String solution(int age) {
-        String answer = ""; // 나이
+        String answer = ""; // PROGRAMMER-962식 나이
 
         // Integer.parseInt(): 정수 변환
         // String.valueOf(): 문자열 변환

@@ -7,7 +7,7 @@ class Solution {
         // StringBuidler는 싱글스레드, StringBuffer는 멀티스레드 환경에서 유리하다.
         // 문자열 연산 시 기존 데이터 참조 => 연산 속도가 빠르고, 상대적으로 부하가 적다.
         // 사용 후 String 변환 => String.valueOf(), toString()
-        StringBuilder sb = new StringBuilder(); // 나이
+        StringBuilder sb = new StringBuilder(); // PROGRAMMER-962식 나이
 
         while (age > 0) {
             // insert(index, string): 지정한 인덱스에 문자열 삽입
