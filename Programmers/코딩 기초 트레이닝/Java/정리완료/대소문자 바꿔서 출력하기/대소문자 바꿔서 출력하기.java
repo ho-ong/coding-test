@@ -10,7 +10,7 @@ public class Solution {
             // charAt(): 문자 변환
             char c = a.charAt(i);
 
-            // isUpperCase(), isLowerCase(): 문자열 대소문자 여부 확인 => true, false 반환
+            // isUpperCase(), isLowerCase(): 문자열 대소문자 여부 확인하여 true, false 반환
             if (Character.isLowerCase(c)) {
                 // toUpperCase(): 문자열 대문자 변환
                 answer += Character.toUpperCase(c);
