@@ -32,13 +32,13 @@ class Solution {
             put("--..", "z");
         }};
 
-        String answer = "";
+        String answer = ""; // 해독된 모스부호
 
         // split(): 문자열 분리
         String[] str = letter.split(" ");
 
         for (String s : str) {
-            // map 키, 값 반환
+            // get(): 키, 값 반환
             answer += map.get(s);
         }
 
