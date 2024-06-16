@@ -3,8 +3,7 @@ class Solution {
         String answer = "";
 
         for (int i = 0; i < str1.length(); i++) {
-            // substring(): 문자열 자르기
-            // 문자열 str1과 str2를 1개씩 자르고, 번갈아 가면서 합치기
+            // substring(startIndex, endIndex): startIndex(포함)부터 endIndex(불포함)까지 문자열 반환
             answer += str1.substring(i, i + 1);
             answer += str2.substring(i, i + 1);
         }
