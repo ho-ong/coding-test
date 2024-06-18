@@ -10,7 +10,7 @@ class Solution {
         StringBuilder sb = new StringBuilder(); // PROGRAMMER-962식 나이
 
         while (age > 0) {
-            // insert(index, string): 지정한 인덱스에 문자열 삽입
+            // insert(): 문자열 삽입
             sb.insert(0, (char) (age % 10 + (int) 'a'));
             age /= 10;
 
