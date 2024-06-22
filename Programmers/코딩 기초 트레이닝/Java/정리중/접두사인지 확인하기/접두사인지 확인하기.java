@@ -1,6 +1,7 @@
 class Solution {
     public int solution(String my_string, String is_prefix) {
-        // startsWith(): 문자열에서 특정 문자열로 시작하는지 확인
+        // startsWith(): 문자열 접두사 확인
+        // is_prefix가 접두사일 경우 1, 아닐 경우 0
         return my_string.startsWith(is_prefix) ? 1 : 0;
     }
 }
