@@ -3,7 +3,7 @@
 <br>
 
 ## 문제설명
-정수 배열 `numbers`가 매개변수로 주어집니다. `numbers`의 각 원소에 두 배한 원소를 가진 배열을 return 하도록 solution 함수를 완성해 주세요.
+정수 배열 `numbers`가 매개변수로 주어집니다. `numbers`의 각 원소에 두 배 한 원소를 가진 배열을 return 하도록 solution 함수를 완성해 주세요.
 
 <br>
 
